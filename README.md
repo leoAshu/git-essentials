@@ -97,52 +97,82 @@
 
 ## Commands:
 
-### Set configuration:
+#### Set configuration:
     git config --global <config_name> <value>
+
     git config --global user.name "Ashutosh Ojha"
+
     git config --global user.email "ashutosh.ojha2009@gmail.com"
+
     git config --global core.editor "atom --wait"
+    
     git config --global color.ui true
 
 <br>
 
-### Show configuration:
-    git config --list // lists all config properties
+#### Show configuration:
+    // lists all config properties
+    git config --list
+
+    // shows a specific configuration property
     git config <config_property>
+
+    // shows a user name
     git config user.name
 
 <br>
 
-### Show command manual:
+#### Show command manual:
     git help <command_name>
+
     man git-<command_name>
 
 <br>
 
-### Initialize repository:
-    git init // adds .git to directory
+#### Initialize repository:
+    // adds .git to directory
+    // converts a normal directory into a repository
+    git init 
 
 <br>
 
-### Stage or add changes:
+#### Stage or add changes:
     git add <change_path>
-    git add **.** // stages all changed files in the directory
-    git add changed_file.txt // stages a specific change
+
+    // stages all changed files in the directory
+    git add .
+
+    // stages a specific change
+    git add changed_file.txt 
 
 <br>
 
-### Commit changes:
+#### Commit changes:
+    // makes the staged changes permanent and tracks them
     git commit
+
+    // commit with a message
     git commit -m "<message>"
+
+    // commit with a message and additional descriptions
     git commit -m "<message>" "<desc1>" "<desc2>"
 
 <br>
 
-### View the commit log:
-    git log // lists all the commits
-    git log -n <limit> // limits the number of commits to be shown
-    git log --since=<date1> --until=<date2> // filter by date
-    git log --author="<author_name>" // filter by author name
-    git log --grep="<commit_message>" // filter by commit message
+#### View the commit log:
+    // lists all the commits
+    git log
+
+    // limits the number of commits to be shown
+    git log -n <limit>
+
+    // filter by date
+    git log --since=<date1> --until=<date2>
+    
+    // filter by author name
+    git log --author="<author_name>"
+
+    // filter by commit message
+    git log --grep="<commit_message>"
 
 <br>
