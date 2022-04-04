@@ -118,3 +118,19 @@
 #####    - `git add <change_path>`
 #####    - To add all changes:      `git add .`
 #####    - To add a changed file:   `git add <changed_file_path>`
+#####    - The changes are not tracked/made permanent yet
+
+#### 5. Commit changes:
+#####    - `git commit`
+#####    - To commit with a message:    `git commit -m "<message>"`
+#####    - To add descriptions after a message: `git commit -m "<message>" "<desc1>" "<desc2>"`
+#####    - Makes the staged changes permanent and tracks them
+#####    - Commit messages should be in present tense
+#####    - Can develop shorthands: "[css,js]", "bugfix:", etc.
+
+#### 3. View the commit log:
+#####    - `git log`
+#####    - To limit the number of commits shown: `git log -n <limit>`
+#####    - To show commits after/before a date:      `git log --since/--until=<date>`
+#####    - To filter commits by author:          `git log --author=<author_name>`
+#####    - To search commits by commit message:  `git log --grep="<commit_message>"`
