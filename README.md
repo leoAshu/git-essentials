@@ -51,25 +51,25 @@
     - better safeguards against data corruption
 
 ### Github:
-    - 2008
-    - hosts Git repositories
-    - purchased by Microsoft in 2018
+- 2008
+- hosts Git repositories
+- purchased by Microsoft in 2018
 
 ### Distributed Version Control:
-    - different users maintain their own repositories
-    - no single central or master repository
-    - changes are stored as change sets
-    - tracks changes and not versions unlike CVS and SVN
-    - change sets can be exchanged between repositories ("merge-in change sets" or "apply patches")
+- different users maintain their own repositories
+- no single central or master repository
+- changes are stored as change sets
+- tracks changes and not versions unlike CVS and SVN
+- change sets can be exchanged between repositories ("merge-in change sets" or "apply patches")
 
 ### Advantages of Distributed Version Control:
-    - no need to communicate with a central server
-    - faster than other traditional version control systems
-    - no network access required
-    - no single failure point
-    - encourages participation and forking of projects
-    - developers can work independently
-    - submit change sets for inclusion or rejection
+- no need to communicate with a central server
+- faster than other traditional version control systems
+- no network access required
+- no single failure point
+- encourages participation and forking of projects
+- developers can work independently
+- submit change sets for inclusion or rejection
 
 ### Git Configuration:
 
@@ -87,7 +87,7 @@
     - Scope:        `git config`
     - Path:         `my_project\.git\config`
 
-### Configuration Commands:
+### Commands:
 
 1. Set configuration:
     - `git config --global <config_name> <value>`
