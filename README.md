@@ -2,7 +2,7 @@
 
 #### Git is a Version Control System(VCS), aka Source Code Management(SCM).
 
-#### Previous VCS Tools:
+## History of VCS Tools:
 
 1. Source Code Control System(SCCS):
     - 1972
@@ -50,19 +50,19 @@
     - faster than other SCMs
     - better safeguards against data corruption
 
-### Github:
+## Github:
 - 2008
 - hosts Git repositories
 - purchased by Microsoft in 2018
 
-### Distributed Version Control:
+## Distributed Version Control:
 - different users maintain their own repositories
 - no single central or master repository
 - changes are stored as change sets
 - tracks changes and not versions unlike CVS and SVN
 - change sets can be exchanged between repositories ("merge-in change sets" or "apply patches")
 
-### Advantages of Distributed Version Control:
+## Advantages of Distributed Version Control:
 - no need to communicate with a central server
 - faster than other traditional version control systems
 - no network access required
@@ -71,7 +71,7 @@
 - developers can work independently
 - submit change sets for inclusion or rejection
 
-### Git Configuration:
+## Git Configuration:
 
 1. System Config File-
     - Scope:        `git config --system`
@@ -87,7 +87,7 @@
     - Scope:        `git config`
     - Path:         `my_project\.git\config`
 
-### Commands:
+## Commands:
 
 1. Set configuration:
     - `git config --global <config_name> <value>`
