@@ -78,24 +78,24 @@
 <br>
 
 ## Git Configuration:
-&nbsp;
+
 1. System Config File-
-    - Scope:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`git config --system`
-    - Win Path:&nbsp;`Program Files\Git\etc\gitconfig`
-    - Mac Path:&nbsp;`etc\gitconfig`
+    - Scope&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;`git config --system`
+    - Win Path&nbsp;:&nbsp;`Program Files\Git\etc\gitconfig`
+    - Mac Path&nbsp;:&nbsp;`etc\gitconfig`
 
 2. User Config File-
-    - Scope:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`git config --global`
-    - Win Path:&nbsp;`Users\<user_name>\.gitconfig`
-    - Mac Path:&nbsp;`$Home\.gitconfig`
+    - Scope&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;`git config --global`
+    - Win Path&nbsp;:&nbsp;`Users\<user_name>\.gitconfig`
+    - Mac Path&nbsp;:&nbsp;`$Home\.gitconfig`
 
 3. Project Config File-
-    - Scope:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`git config`
-    - Path:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`my_project\.git\config`
+    - Scope&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;`git config`
+    - Path&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;`my_project\.git\config`
 
 <br>
 
-## Commands:
+## Commonly Used Commands:
 
 #### Set configuration:
     git config --global <config_name> <value>
@@ -136,7 +136,7 @@
 
 <br>
 
-#### Stage or add changes:
+#### Stage changes:
     git add <change_path>
 
     // stages all changed files in the directory
@@ -159,7 +159,7 @@
 
 <br>
 
-#### View the commit log:
+#### View commit log:
     // lists all the commits
     git log
 
