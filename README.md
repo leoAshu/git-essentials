@@ -132,5 +132,5 @@
 #####    - `git log`
 #####    - To limit the number of commits shown: `git log -n <limit>`
 #####    - To show commits after/before a date:  `git log --since/--until=<date>`
-#####    - To filter commits by author:          `git log --author=<author_name>`
+#####    - To filter commits by author:          `git log --author="<author_name>"`
 #####    - To search commits by commit message:  `git log --grep="<commit_message>"`
