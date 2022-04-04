@@ -97,32 +97,52 @@
 
 ## Commands:
 
-1. Set configuration:
-        git config --global <config_name> <value>
-        git config --global user.name "Ashutosh Ojha"
-        git config --global user.email "ashutosh.ojha2009@gmail.com"
-        git config --global core.editor "atom --wait"
-        git config --global color.ui true
-2. Show configuration:
-        git config --list // lists all config properties
-        git config <config_property>
-        git config user.name
-2. Show command manual:
-        git help <command_name>
-        man git-<command_name>
-3. Initialize repository:
-        git init // adds .git to directory
-4. Stage or add changes:
-        git add <change_path>
-        git add **.** // stages all changed files in the directory
-        git add changed_file.txt // stages a specific change
-5. Commit changes:
-        git commit
-        git commit -m "<message>"
-        git commit -m "<message>" "<desc1>" "<desc2>"
-6. View the commit log:
-        git log // lists all the commits
-        git log -n <limit> // limits the number of commits to be shown
-        git log --since=<date1> --until=<date2> // filter by date
-        git log --author="<author_name>" // filter by author name
-        git log --grep="<commit_message>" // filter by commit message
+### Set configuration:
+    git config --global <config_name> <value>
+    git config --global user.name "Ashutosh Ojha"
+    git config --global user.email "ashutosh.ojha2009@gmail.com"
+    git config --global core.editor "atom --wait"
+    git config --global color.ui true
+
+<br>
+
+### Show configuration:
+    git config --list // lists all config properties
+    git config <config_property>
+    git config user.name
+
+<br>
+
+### Show command manual:
+    git help <command_name>
+    man git-<command_name>
+
+<br>
+
+### Initialize repository:
+    git init // adds .git to directory
+
+<br>
+
+### Stage or add changes:
+    git add <change_path>
+    git add **.** // stages all changed files in the directory
+    git add changed_file.txt // stages a specific change
+
+<br>
+
+### Commit changes:
+    git commit
+    git commit -m "<message>"
+    git commit -m "<message>" "<desc1>" "<desc2>"
+
+<br>
+
+### View the commit log:
+    git log // lists all the commits
+    git log -n <limit> // limits the number of commits to be shown
+    git log --since=<date1> --until=<date2> // filter by date
+    git log --author="<author_name>" // filter by author name
+    git log --grep="<commit_message>" // filter by commit message
+
+<br>
