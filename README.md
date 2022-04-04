@@ -98,42 +98,37 @@
 ## Commands:
 
 1. Set configuration:
-    - `git config --global <config_name> <value>`
-    - To set the user name:        `git config --global user.name "Ashutosh Ojha"`
-    - To set the user email:       `git config --global user.email "ashutosh.ojha2009@gmail.com"`
-    - To set the default editor:   `git config --global core.editor "atom --wait"`
-    - To enable colored ui:        `git config --global color.ui true`
+    -git config --global <config_name> <value>
+    -git config --global user.name "Ashutosh Ojha"
+    -`git config --global user.email "ashutosh.ojha2009@gmail.com"`
+    -`git config --global core.editor "atom --wait"`
+    -`git config --global color.ui true`
 
 2. Show configuration:
-    - To list all the config properties:   `git config --list`
-    - To show a specific config_property:  `git config <config_property>`
-    - To show the user name:               `git config user.name`
+    -`git config --list` // shows all the 
+    -`git config <config_property>`
+    -`git config user.name`
 
 2. Show command manual:
-    - `git help <command_name>`
-    - `man git-<command_name>`
+    -`git help <command_name>`
+    -`man git-<command_name>`
 
 3. Initialize repository:
-    - To turn a directory into a git repository: `git init`
-    - Adds a .git file to the root directory
+    -`git init`
 
 4. Stage or add changes:
-    - `git add <change_path>`
-    - To add all changes:      `git add .`
-    - To add a changed file:   `git add <changed_file_path>`
-    - The changes are not tracked/made permanent yet
+    -`git add <change_path>`
+    -`git add .`
+    -`git add <changed_file_path>`
 
 5. Commit changes:
-    - `git commit`
-    - To commit with a message:    `git commit -m "<message>"`
-    - To add descriptions after a message: `git commit -m "<message>" "<desc1>" "<desc2>"`
-    - Makes the staged changes permanent and tracks them
-    - Commit messages should be in present tense
-    - Can develop shorthands: "[css,js]", "bugfix:", etc.
+    -`git commit`
+    -`git commit -m "<message>"`
+    -`git commit -m "<message>" "<desc1>" "<desc2>"`
 
 3. View the commit log:
-    - `git log`
-    - To limit the number of commits shown: `git log -n <limit>`
-    - To show commits after/before a date:  `git log --since/--until=<date>`
-    - To filter commits by author:          `git log --author="<author_name>"`
-    - To search commits by commit message:  `git log --grep="<commit_message>"`
+    -`git log`
+    -`git log -n <limit>`
+    -`git log --since/--until=<date>`
+    -`git log --author="<author_name>"`
+    -`git log --grep="<commit_message>"`
