@@ -80,55 +80,55 @@
 ## Git Configuration:
 
 1. System Config File-
-    - Scope:        `git config --system`
-    - Win Path:     `Program Files\Git\etc\gitconfig`
-    - Mac Path:     `etc\gitconfig`
+    - Scope:        git config --system
+    - Win Path:     Program Files\Git\etc\gitconfig
+    - Mac Path:     etc\gitconfig
 
 2. User Config File-
-    - Scope:        `git config --global`
-    - Win Path:     `Users\<user_name>\.gitconfig`
-    - Mac Path:     `$Home\.gitconfig`
+    - Scope:        git config --global
+    - Win Path:     Users\<user_name>\.gitconfig
+    - Mac Path:     $Home\.gitconfig
 
 3. Project Config File-
-    - Scope:        `git config`
-    - Path:         `my_project\.git\config`
+    - Scope:        git config
+    - Path:         my_project\.git\config
 
 <br>
 
 ## Commands:
 
 1. Set configuration:
-    - `git config --global <config_name> <value>`
-    - `git config --global user.name "Ashutosh Ojha"`
-    - `git config --global user.email "ashutosh.ojha2009@gmail.com"`
-    - `git config --global core.editor "atom --wait"`
-    - `git config --global color.ui true`
+        git config --global <config_name> <value>
+        git config --global user.name "Ashutosh Ojha"
+        git config --global user.email "ashutosh.ojha2009@gmail.com"
+        git config --global core.editor "atom --wait"
+        git config --global color.ui true
 
 2. Show configuration:
-    - `git config --list`
-    - `git config <config_property>`
-    - `git config user.name`
+        git config --list // lists all config properties
+        git config <config_property>
+        git config user.name
 
 2. Show command manual:
-    - `git help <command_name>`
-    - `man git-<command_name>`
+        git help <command_name>
+        man git-<command_name>
 
 3. Initialize repository:
-    - `git init`
+        git init // adds .git to directory
 
 4. Stage or add changes:
-    - `git add <change_path>`
-    - `git add .`
-    - `git add <changed_file_path>`
+        git add <change_path>
+        git add **.** // stages all changed files in the directory
+        git add changed_file.txt // stages a specific change
 
 5. Commit changes:
-    - `git commit`
-    - `git commit -m "<message>"`
-    - `git commit -m "<message>" "<desc1>" "<desc2>"`
+        git commit
+        git commit -m "<message>"
+        git commit -m "<message>" "<desc1>" "<desc2>"
 
 3. View the commit log:
-    - `git log`
-    - `git log -n <limit>`
-    - `git log --since/--until=<date>`
-    - `git log --author="<author_name>"`
-    - `git log --grep="<commit_message>"`
+        git log // lists all the commits
+        git log -n <limit> // limits the number of commits to be shown
+        git log --since=<date1> --until=<date2> // filter by date
+        git log --author="<author_name>" // filter by author name
+        git log --grep="<commit_message>" // filter by commit message
