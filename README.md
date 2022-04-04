@@ -98,11 +98,11 @@
 ## Commands:
 
 1. Set configuration:
-    -git config --global <config_name> <value>
-    -git config --global user.name "Ashutosh Ojha"
-    -`git config --global user.email "ashutosh.ojha2009@gmail.com"`
-    -`git config --global core.editor "atom --wait"`
-    -`git config --global color.ui true`
+-git config --global <config_name> <value>
+-git config --global user.name "Ashutosh Ojha"
+-`git config --global user.email "ashutosh.ojha2009@gmail.com"`
+-`git config --global core.editor "atom --wait"`
+-`git config --global color.ui true`
 
 2. Show configuration:
     -`git config --list` // shows all the 
