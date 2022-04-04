@@ -80,18 +80,18 @@
 ## Git Configuration:
 &nbsp;
 1. System Config File-
-    - Scope:&nbsp;&nbsp;&nbsp;&nbsp;`git config --system`
+    - Scope:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`git config --system`
     - Win Path:&nbsp;`Program Files\Git\etc\gitconfig`
     - Mac Path:&nbsp;`etc\gitconfig`
 
 2. User Config File-
-    - Scope:&nbsp;&nbsp;&nbsp;&nbsp;`git config --global`
+    - Scope:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`git config --global`
     - Win Path:&nbsp;`Users\<user_name>\.gitconfig`
     - Mac Path:&nbsp;`$Home\.gitconfig`
 
 3. Project Config File-
-    - Scope:&nbsp;&nbsp;&nbsp;&nbsp;`git config`
-    - Path:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`my_project\.git\config`
+    - Scope:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`git config`
+    - Path:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`my_project\.git\config`
 
 <br>
 
