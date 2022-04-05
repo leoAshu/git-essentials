@@ -165,6 +165,13 @@ Two Tree Architecture - Traditional        |  Three Tree Architecture - Git
 
 <br>
 
+- Get repository status:
+    
+        // gives status info like edited, staged, unstaged and untracked files
+        git status
+
+<br>
+
 - Stage changes:
     
         git add <change_path>
@@ -239,20 +246,24 @@ Two Tree Architecture - Traditional        |  Three Tree Architecture - Git
 
 <br>
 
-- Get status:
-    
-        // get status info like edited, staged, unstaged and untracked files
-        git status
+- Show specific commit:
+
+        // shows all the changes(git diff) done in a particular commit
+        // need not type entire 40 character commit id, first few characters also work
+        git show <commit_id>
 
 <br>
 
-- View changes in files:
+- View changes in files/commits:
     
         // shows difference between old and new version of each file
 
         // lists differences in all modified files
         // compares working directory version against staging tree version of the files
         git diff
+
+        // use --color-words to show and color the differences word by word
+        git diff --color-words
 
         // shows difference in a specific modified file
         git diff changed_file.txt 
@@ -263,6 +274,10 @@ Two Tree Architecture - Traditional        |  Three Tree Architecture - Git
         // compares staging tree version against repository version of the files (staged/cached)
         git diff --staged
         git diff --cached
+
+        // view differences between commits
+        // HEAD can be used instead of the commit id to point to the latest commit 
+        git diff <commit_1_id>..<commit_2_id>
 
         // hit 'q' to exit out of diff view
 
