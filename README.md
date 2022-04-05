@@ -206,6 +206,12 @@ Two Tree Architecture - Traditional        |  Three Tree Architecture - Git
         // commit with a message and additional descriptions
         git commit -m "<message>" "<desc1>" "<desc2>"
 
+        // stage and commit shortcut
+        // directly commits all the changes(no manual staging needed)
+        // commits all changes(staged and unstaged) except untracked changes
+        git commit -a
+        git commit --all
+
 <br>
 
 - View commit log:
