@@ -178,6 +178,10 @@ Two Tree Architecture - Traditional        |  Three Tree Architecture - Git
         // stages multiple files
         git add changed_file_1.txt changed_file_2.txt
 
+        // stages deleted file if manually deleted
+        // permanently deletes and stages a file
+        git rm deleted_file.txt
+
 <br>
 
 - Unstage changes:
