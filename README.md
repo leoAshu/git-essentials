@@ -175,6 +175,9 @@ Two Tree Architecture - Traditional        |  Three Tree Architecture - Git
         // stages a specific change
         git add changed_file.txt 
 
+        // stages multiple files
+        git add changed_file_1.txt changed_file_2.txt
+
 <br>
 
 - Commit changes:
@@ -211,7 +214,7 @@ Two Tree Architecture - Traditional        |  Three Tree Architecture - Git
 
 - Get status:
     
-        // get status info like edited files, staged files, unstaged files
+        // get status info like edited, staged, unstaged and untracked files
         git status
 
 <br>
