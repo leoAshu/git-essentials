@@ -77,6 +77,17 @@
 
 <br>
 
+## Git Workflow:
+
+<br>
+<p align="center">
+    <image src="images/git-workflow.gif">
+</p>
+<!-- <p align="center">
+    <b>1: setState(The New iPad is out today) : void</b>
+</p> -->
+<br>
+
 ## Git Configuration:
 
 1. System Config File-
