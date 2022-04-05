@@ -81,7 +81,7 @@
 
 - Git uses **Three Tree Architecture** as opposed to other VCSs that use traditional **Three Tree Architecture**
 
-Two Tree Architecture                      |  Three Tree Architecture
+Two Tree Architecture - Traditional        |  Three Tree Architecture - Git
 :-----------------------------------------:|:-----------------------------------------:
 ![](images/two-tree-architecture.png)      |  ![](images/three-tier-architecture.png)
 
@@ -93,9 +93,9 @@ Two Tree Architecture                      |  Three Tree Architecture
 <p align="center">
     <image src="images/git-workflow.gif">
 </p>
-<!-- <p align="center">
-    <b>1: setState(The New iPad is out today) : void</b>
-</p> -->
+<p align="center">
+    <b>Sample Workflow - </b>Involving three changes A, B, C
+</p>
 <br>
 
 ## Git Configuration:
