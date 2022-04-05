@@ -270,7 +270,10 @@ Two Tree Architecture - Traditional        |  Three Tree Architecture - Git
 
         // manually renaming a file is identified as deleting old file and adding new file
         // upon staging it is recognized as rename operation
-
         // moving a file using command line is identified as renaming and is automatically staged
+
+        // renaming file name
         git mv <old_file_name> <new_file_name>
-        git mv <old_file_path> <new_file_path>
+
+        // moving a file
+        git mv <old_file_name> <new_path/old_file_name>
