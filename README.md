@@ -203,6 +203,7 @@ Two Tree Architecture - Traditional        |  Three Tree Architecture - Git
 <br>
 
 Get status:
+    
     // get status info like edited files, staged files, unstaged files
     git status
 
