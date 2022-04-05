@@ -256,7 +256,7 @@ Two Tree Architecture - Traditional        |  Three Tree Architecture - Git
 
 <br>
 
-- Delete file:
+- Delete files:
 
         // stages deleted file if manually deleted
         git rm <deleted_file>
@@ -266,3 +266,11 @@ Two Tree Architecture - Traditional        |  Three Tree Architecture - Git
 
 <br>
 
+- Moving or Renaming files:
+
+        // manually renaming a file is identified as deleting old file and adding new file
+        // upon staging it is recognized as rename operation
+
+        // moving a file using command line is identified as renaming and is automatically staged
+        git mv <old_file_name> <new_file_name>
+        git mv <old_file_path> <new_file_path>
