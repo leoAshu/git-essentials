@@ -122,83 +122,90 @@ Two Tree Architecture - Traditional        |  Three Tree Architecture - Git
 
 ## Commonly Used Commands:
 
-#### Set configuration:
-    git config --global <config_name> <value>
-
-    git config --global user.name "Ashutosh Ojha"
-
-    git config --global user.email "ashutosh.ojha2009@gmail.com"
-
-    git config --global core.editor "atom --wait"
+- Set configuration:
     
-    git config --global color.ui true
+        git config --global <config_name> <value>
 
-<br>
+        git config --global user.name "Ashutosh Ojha"
 
-#### Show configuration:
-    // lists all config properties
-    git config --list
+        git config --global user.email "ashutosh.ojha2009@gmail.com"
 
-    // shows a specific configuration property
-    git config <config_property>
-
-    // shows a user name
-    git config user.name
-
-<br>
-
-#### Show command manual:
-    git help <command_name>
-
-    man git-<command_name>
-
-<br>
-
-#### Initialize repository:
-    // adds .git to directory
-    // converts a normal directory into a repository
-    git init 
-
-<br>
-
-#### Stage changes:
-    git add <change_path>
-
-    // stages all changed files in the directory
-    git add .
-
-    // stages a specific change
-    git add changed_file.txt 
-
-<br>
-
-#### Commit changes:
-    // makes the staged changes permanent and tracks them
-    git commit
-
-    // commit with a message
-    git commit -m "<message>"
-
-    // commit with a message and additional descriptions
-    git commit -m "<message>" "<desc1>" "<desc2>"
-
-<br>
-
-#### View commit log:
-    // lists all the commits
-    git log
-
-    // limits the number of commits to be shown
-    git log -n <limit>
-
-    // filter by date
-    git log --since=<date1> --until=<date2>
+        git config --global core.editor "atom --wait"
     
-    // filter by author name
-    git log --author="<author_name>"
+        git config --global color.ui true
 
-    // filter by commit message
-    git log --grep="<commit_message>"
+<br>
+
+- Show configuration:
+    
+        // lists all config properties
+        git config --list
+
+        // shows a specific configuration property
+        git config <config_property>
+
+        // shows a user name
+        git config user.name
+
+<br>
+
+- Show command manual:
+    
+        git help <command_name>
+
+        man git-<command_name>
+
+<br>
+
+- Initialize repository:
+    
+        // adds .git to directory
+        // converts a normal directory into a repository
+        git init 
+
+<br>
+
+- Stage changes:
+    
+        git add <change_path>
+
+        // stages all changed files in the directory
+        git add .
+
+        // stages a specific change
+        git add changed_file.txt 
+
+<br>
+
+- Commit changes:
+
+        // makes the staged changes permanent and tracks them
+        git commit
+
+        // commit with a message
+        git commit -m "<message>"
+
+        // commit with a message and additional descriptions
+        git commit -m "<message>" "<desc1>" "<desc2>"
+
+<br>
+
+- View commit log:
+
+        // lists all the commits
+        git log
+
+        // limits the number of commits to be shown
+        git log -n <limit>
+
+        // filter by date
+        git log --since=<date1> --until=<date2>
+    
+        // filter by author name
+        git log --author="<author_name>"
+
+        // filter by commit message
+        git log --grep="<commit_message>"
 
 <br>
 
