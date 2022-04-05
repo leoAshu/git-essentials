@@ -178,10 +178,6 @@ Two Tree Architecture - Traditional        |  Three Tree Architecture - Git
         // stages multiple files
         git add changed_file_1.txt changed_file_2.txt
 
-        // stages deleted file if manually deleted
-        // permanently deletes and stages a file
-        git rm deleted_file.txt
-
 <br>
 
 - Unstage changes:
@@ -257,6 +253,16 @@ Two Tree Architecture - Traditional        |  Three Tree Architecture - Git
         git diff --cached
 
         // hit 'q' to exit out of diff view
+
+<br>
+
+- Delete file:
+
+        // stages deleted file if manually deleted
+        git rm <deleted_file>
+        
+        // permanently deletes and stages a file
+        git rm <to_be_deleted_file>
 
 <br>
 
