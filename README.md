@@ -233,3 +233,16 @@ Two Tree Architecture - Traditional        |  Three Tree Architecture - Git
         git status
 
 <br>
+
+- View changes in files:
+    
+        // shows difference between old and new version of each file
+        
+        // lists differences in all modified files
+        git diff
+
+        // shows difference in a specific modified file
+        git diff changed_file.txt 
+
+        // shows difference in multiple modified files
+        git reset changed_file_1.txt changed_file_2.txt
