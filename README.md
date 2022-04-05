@@ -180,6 +180,21 @@ Two Tree Architecture - Traditional        |  Three Tree Architecture - Git
 
 <br>
 
+- Unstage changes:
+    
+        git reset <change_path>
+
+        // unstages all changed files in the directory
+        git reset .
+
+        // unstages a specific change
+        git reset changed_file.txt 
+
+        // unstages multiple files
+        git reset changed_file_1.txt changed_file_2.txt
+
+<br>
+
 - Commit changes:
 
         // makes the staged changes permanent and tracks them
