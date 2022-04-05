@@ -89,6 +89,10 @@ Two Tree Architecture - Traditional        |  Three Tree Architecture - Git
 
 ## Git Workflow:
 
+- Make changes
+- Stage changes
+- Commit changes
+
 <br>
 <p align="center">
     <image src="images/git-workflow.gif">
