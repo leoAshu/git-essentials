@@ -237,8 +237,9 @@ Two Tree Architecture - Traditional        |  Three Tree Architecture - Git
 - View changes in files:
     
         // shows difference between old and new version of each file
-        
+
         // lists differences in all modified files
+        // compares working directory version against staging tree version of the files
         git diff
 
         // shows difference in a specific modified file
@@ -246,3 +247,12 @@ Two Tree Architecture - Traditional        |  Three Tree Architecture - Git
 
         // shows difference in multiple modified files
         git reset changed_file_1.txt changed_file_2.txt
+
+        // compares staging tree version against repository version of the files (staged/cached)
+        git diff --staged
+        git diff --cached
+
+        // hit 'q' to exit out of diff view
+
+<br>
+

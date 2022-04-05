@@ -1,1 +1,4 @@
-This is the first file added to the project.
+This is the first file added to this project.
+
+This file was added before all other files.
+This file is modified to test "diff" command.
