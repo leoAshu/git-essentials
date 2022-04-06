@@ -4,7 +4,7 @@
 
 # Git Essentials
 
-### Git is a Version Control System(VCS), aka Source Code Management(SCM).
+Git is a Version Control System(VCS), aka Source Code Management(SCM).
 
 ## History of VCS Tools:
 
@@ -126,185 +126,184 @@ Two Tree Architecture - Traditional        |  Three Tree Architecture - Git
 
 ## Commonly Used Commands:
 
-- Set configuration:
+### Set configuration:
     
-        git config --global <config_name> <value>
+    git config --global <config_name> <value>
 
-        git config --global user.name "Ashutosh Ojha"
+    git config --global user.name "Ashutosh Ojha"
 
-        git config --global user.email "ashutosh.ojha2009@gmail.com"
+    git config --global user.email "ashutosh.ojha2009@gmail.com"
 
-        git config --global core.editor "atom --wait"
+    git config --global core.editor "atom --wait"
     
-        git config --global color.ui true
+    git config --global color.ui true
 
 <br>
 
-- Show configuration:
+### Show configuration:
     
-        // lists all config properties
-        git config --list
+    // lists all config properties
+    git config --list
 
-        // shows a specific configuration property
-        git config <config_property>
+    // shows a specific configuration property
+    git config <config_property>
 
-        // shows a user name
-        git config user.name
+    // shows a user name
+    git config user.name
 
 <br>
 
-- Show command manual:
+### Show command manual:
     
-        git help <command_name>
+    git help <command_name>
 
-        man git-<command_name>
+    man git-<command_name>
 
 <br>
 
-- Initialize repository:
+### Initialize repository:
     
-        // adds .git to directory
-        // converts a normal directory into a repository
-        git init 
+    // adds .git to directory
+    // converts a normal directory into a repository
+    git init 
 
 <br>
 
-- Get repository status:
+### Get repository status:
     
-        // gives status info like edited, staged, unstaged and untracked files
-        git status
+    // gives status info like edited, staged, unstaged and untracked files
+    git status
 
 <br>
 
-- Stage changes:
+### Stage changes:
     
-        git add <change_path>
+    git add <change_path>
 
-        // stages all changed files in the directory
-        git add .
+    // stages all changed files in the directory
+    git add .
 
-        // stages a specific change
-        git add changed_file.txt 
+    // stages a specific change
+    git add changed_file.txt 
 
-        // stages multiple files
-        git add changed_file_1.txt changed_file_2.txt
+    // stages multiple files
+    git add changed_file_1.txt changed_file_2.txt
 
 <br>
 
-- Unstage changes:
+### Unstage changes:
     
-        git reset <change_path>
+    git reset <change_path>
 
-        // unstages all changed files in the directory
-        git reset .
+    // unstages all changed files in the directory
+    git reset .
 
-        // unstages a specific change
-        git reset changed_file.txt 
+    // unstages a specific change
+    git reset changed_file.txt 
 
-        // unstages multiple files
-        git reset changed_file_1.txt changed_file_2.txt
-
-<br>
-
-- Commit changes:
-
-        // makes the staged changes permanent and tracks them
-        git commit
-
-        // commit with a message
-        git commit -m "<message>"
-
-        // commit with a message and additional descriptions
-        git commit -m "<message>" "<desc1>" "<desc2>"
+    // unstages multiple files
+    git reset changed_file_1.txt changed_file_2.txt
 
 <br>
 
-- Stage and Commit shortcut:
+### Commit changes:
 
-        // directly commits all the changes(no manual staging needed)
-        // commits all changes(staged and unstaged) except untracked changes
-        git commit -a
-        git commit --all
+    // makes the staged changes permanent and tracks them
+    git commit
 
-        // commits all changes with a message
-        git commit -am "<message>"
+    // commit with a message
+    git commit -m "<message>"
+
+    // commit with a message and additional descriptions
+    git commit -m "<message>" "<desc1>" "<desc2>"
 
 <br>
 
-- View commit log:
+### Stage and Commit shortcut:
 
-        // lists all the commits
-        git log
+    // directly commits all the changes(no manual staging needed)
+    // commits all changes(staged and unstaged) except untracked changes
+    git commit -a
+    git commit --all
+    // commits all changes with a message
+    git commit -am "<message>"
 
-        // limits the number of commits to be shown
-        git log -n <limit>
+<br>
 
-        // filter by date
-        git log --since=<date1> --until=<date2>
+### View commit log:
+
+    // lists all the commits
+    git log
+
+    // limits the number of commits to be shown
+    git log -n <limit>
+
+    // filter by date
+    git log --since=<date1> --until=<date2>
     
-        // filter by author name
-        git log --author="<author_name>"
+    // filter by author name
+    git log --author="<author_name>"
 
-        // filter by commit message
-        git log --grep="<commit_message>"
-
-<br>
-
-- Show specific commit:
-
-        // shows all the changes(git diff) done in a particular commit
-        // need not type entire 40 character commit id, first few characters also work
-        git show <commit_id>
+    // filter by commit message
+    git log --grep="<commit_message>"
 
 <br>
 
-- View changes in files/commits:
+### Show specific commit:
+
+    // shows all the changes(git diff) done in a particular commit
+    // need not type entire 40 character commit id, first few characters also work
+    git show <commit_id>
+
+<br>
+
+### View changes in files/commits:
     
-        // shows difference between old and new version of each file
+    // shows difference between old and new version of each file
 
-        // lists differences in all modified files
-        // compares working directory version against staging tree version of the files
-        git diff
+    // lists differences in all modified files
+    // compares working directory version against staging tree version of the files
+    git diff
 
-        // use --color-words to show and color the differences word by word
-        git diff --color-words
+    // use --color-words to show and color the differences word by word
+    git diff --color-words
 
-        // shows difference in a specific modified file
-        git diff changed_file.txt 
+    // shows difference in a specific modified file
+    git diff changed_file.txt 
 
-        // shows difference in multiple modified files
-        git reset changed_file_1.txt changed_file_2.txt
+    // shows difference in multiple modified files
+    git reset changed_file_1.txt changed_file_2.txt
 
-        // compares staging tree version against repository version of the files (staged/cached)
-        git diff --staged
-        git diff --cached
+    // compares staging tree version against repository version of the files (staged/cached)
+    git diff --staged
+    git diff --cached
 
-        // view differences between commits
-        // HEAD can be used instead of the commit id to point to the latest commit 
-        git diff <commit_1_id>..<commit_2_id>
+    // view differences between commits
+    // HEAD can be used instead of the commit id to point to the latest commit 
+    git diff <commit_1_id>..<commit_2_id>
 
-        // hit 'q' to exit out of diff view
+    // hit 'q' to exit out of diff view
 
 <br>
 
-- Delete files:
+### Delete files:
 
-        // stages deleted file if manually deleted
-        git rm <deleted_file>
+    // stages deleted file if manually deleted
+    git rm <deleted_file>
         
-        // permanently deletes and stages a file
-        git rm <to_be_deleted_file>
+    // permanently deletes and stages a file
+    git rm <to_be_deleted_file>
 
 <br>
 
-- Moving or Renaming files:
+### Moving or Renaming files:
 
-        // manually moving or renaming a file is identified as deleting old file and adding new file
-        // upon staging it is recognized as rename operation
-        // moving a file using command line is identified as renaming and is automatically staged
+    // manually moving or renaming a file is identified as deleting old file and adding new file
+    // upon staging it is recognized as rename operation
+    // moving a file using command line is identified as renaming and is automatically staged
 
-        // renaming file name
-        git mv <old_file_name> <new_file_name>
+    // renaming file name
+    git mv <old_file_name> <new_file_name>
 
-        // moving a file
-        git mv <old_file_name> <new_path/old_file_name>
+    // moving a file
+    git mv <old_file_name> <new_path/old_file_name>
