@@ -1,3 +1,7 @@
+<p align="center">
+    <image src="images/cover.png"  width="480" height="auto">
+</p>
+
 # Git Essentials
 
 ### Git is a Version Control System(VCS), aka Source Code Management(SCM).
