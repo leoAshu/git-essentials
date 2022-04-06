@@ -1,5 +1,5 @@
 <p align="center">
-    <image src="images/cover.png">
+    <image src="images/cover.png" width="480" height="auto">
 </p>
 
 # Git Essentials
