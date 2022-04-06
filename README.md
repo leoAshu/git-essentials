@@ -225,6 +225,7 @@ Two Tree Architecture - Traditional        |  Three Tree Architecture - Git
     // commits all changes(staged and unstaged) except untracked changes
     git commit -a
     git commit --all
+    
     // commits all changes with a message
     git commit -am "<message>"
 
