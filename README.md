@@ -138,7 +138,6 @@ Two Tree Architecture - Traditional        |  Three Tree Architecture - Git
     
     git config --global color.ui true
 
-<br>
 
 ### Show configuration:
     
@@ -151,7 +150,6 @@ Two Tree Architecture - Traditional        |  Three Tree Architecture - Git
     // shows a user name
     git config user.name
 
-<br>
 
 ### Show command manual:
     
@@ -159,7 +157,6 @@ Two Tree Architecture - Traditional        |  Three Tree Architecture - Git
 
     man git-<command_name>
 
-<br>
 
 ### Initialize repository:
     
@@ -167,14 +164,12 @@ Two Tree Architecture - Traditional        |  Three Tree Architecture - Git
     // converts a normal directory into a repository
     git init 
 
-<br>
 
 ### Get repository status:
     
     // gives status info like edited, staged, unstaged and untracked files
     git status
 
-<br>
 
 ### Stage changes:
     
@@ -189,7 +184,6 @@ Two Tree Architecture - Traditional        |  Three Tree Architecture - Git
     // stages multiple files
     git add changed_file_1.txt changed_file_2.txt
 
-<br>
 
 ### Unstage changes:
     
@@ -204,7 +198,6 @@ Two Tree Architecture - Traditional        |  Three Tree Architecture - Git
     // unstages multiple files
     git reset changed_file_1.txt changed_file_2.txt
 
-<br>
 
 ### Commit changes:
 
@@ -217,7 +210,6 @@ Two Tree Architecture - Traditional        |  Three Tree Architecture - Git
     // commit with a message and additional descriptions
     git commit -m "<message>" "<desc1>" "<desc2>"
 
-<br>
 
 ### Stage and Commit shortcut:
 
@@ -229,7 +221,6 @@ Two Tree Architecture - Traditional        |  Three Tree Architecture - Git
     // commits all changes with a message
     git commit -am "<message>"
 
-<br>
 
 ### View commit log:
 
@@ -248,7 +239,6 @@ Two Tree Architecture - Traditional        |  Three Tree Architecture - Git
     // filter by commit message
     git log --grep="<commit_message>"
 
-<br>
 
 ### Show specific commit:
 
@@ -256,7 +246,6 @@ Two Tree Architecture - Traditional        |  Three Tree Architecture - Git
     // need not type entire 40 character commit id, first few characters also work
     git show <commit_id>
 
-<br>
 
 ### View changes in files/commits:
     
@@ -285,7 +274,6 @@ Two Tree Architecture - Traditional        |  Three Tree Architecture - Git
 
     // hit 'q' to exit out of diff view
 
-<br>
 
 ### Delete files:
 
@@ -295,7 +283,6 @@ Two Tree Architecture - Traditional        |  Three Tree Architecture - Git
     // permanently deletes and stages a file
     git rm <to_be_deleted_file>
 
-<br>
 
 ### Moving or Renaming files:
 
