@@ -257,10 +257,11 @@ Two Tree Architecture - Traditional        |  Three Tree Architecture - Git
     // shows difference between old and new version of each file
 
     // lists differences in all modified files
+    // shows the line by line difference between file versions
     // compares working directory version against staging tree version of the files
     git diff
 
-    // use --color-words to show and color the differences word by word
+    // shows and highlights word by word difference
     git diff --color-words
 
     // shows difference in a specific modified file
