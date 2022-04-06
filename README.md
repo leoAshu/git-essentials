@@ -83,7 +83,7 @@ Git is a Version Control System(VCS), aka Source Code Management(SCM).
 
 ## Architecture:
 
-- Git uses **Three Tree Architecture** as opposed to other VCSs that use traditional **Three Tree Architecture**
+- Git uses **Three Tree Architecture** as opposed to other VCSs that use traditional **Two Tree Architecture**
 
 Two Tree Architecture - Traditional        |  Three Tree Architecture - Git
 :-----------------------------------------:|:-----------------------------------------:
