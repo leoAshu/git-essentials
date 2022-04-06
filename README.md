@@ -227,6 +227,11 @@ Two Tree Architecture - Traditional        |  Three Tree Architecture - Git
     // lists all the commits
     git log
 
+    
+    // show commits with one-line commit messages
+    // ignores the descriptions
+    git log --oneline
+    
     // limits the number of commits to be shown
     git log -n <limit>
 
