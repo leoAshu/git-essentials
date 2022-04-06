@@ -301,3 +301,10 @@ Two Tree Architecture - Traditional        |  Three Tree Architecture - Git
 
     // moving a file
     git mv <old_file_name> <new_path/old_file_name>
+
+
+### Undo changes:
+
+    // undo changes in working directory
+    // restores the repository version of a file from current branch
+    git checkout -- <file>
