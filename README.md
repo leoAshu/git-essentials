@@ -311,3 +311,6 @@ Two Tree Architecture - Traditional        |  Three Tree Architecture - Git
     // undo changes in working directory
     // restores the repository version of a file from current branch
     git checkout -- <file>
+
+    // retrieve old versions of files using commit id
+    git checkout <commit_id> -- <file>
