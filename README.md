@@ -314,3 +314,7 @@ Two Tree Architecture - Traditional        |  Three Tree Architecture - Git
 
     // retrieve old versions of files using commit id
     git checkout <commit_id> -- <file>
+
+    // revert commit
+    // reverts the change done in the specified commit
+    git revert <commit_id>
