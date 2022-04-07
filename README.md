@@ -318,3 +318,11 @@ Two Tree Architecture - Traditional        |  Three Tree Architecture - Git
     // revert commit
     // reverts the change done in the specified commit
     git revert <commit_id>
+
+## Remove untracked files:
+
+    // performs a dry run and informs which files would be deleted
+    git clean -n
+
+    // actually deletes the untracked files
+    git clean -f
