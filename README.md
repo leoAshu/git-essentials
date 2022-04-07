@@ -326,3 +326,7 @@ Two Tree Architecture - Traditional        |  Three Tree Architecture - Git
 
     // actually deletes the untracked files
     git clean -f
+    
+    // remove untracked files in an interactive way
+    git clean -i
+    
