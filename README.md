@@ -209,6 +209,9 @@ Two Tree Architecture - Traditional        |  Three Tree Architecture - Git
 
     // commit with a message and additional descriptions
     git commit -m "<message>" "<desc1>" "<desc2>"
+    
+    // amend or modify the most recent commit
+    git commit --amend -m "<message>"
 
 
 ### Stage and Commit shortcut:
