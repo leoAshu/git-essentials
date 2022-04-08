@@ -134,9 +134,9 @@ The following git objects qualify as a **tree-ish**:
 - Ancestry
 
 > Use ^ to refer to the ancestors of a commit
-- parent - `git show HEAD^` or `git show HEAD~1`
-- grandparent - `git show HEAD^^` or `git show HEAD~2`
-- great-grandparent - `git show HEAD^^^` or `git show HEAD~3`
+>- parent - `git show HEAD^` or `git show HEAD~1`
+>- grandparent - `git show HEAD^^` or `git show HEAD~2`
+>- great-grandparent - `git show HEAD^^^` or `git show HEAD~3`
 
 
 ## Commonly Used Commands:
