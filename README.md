@@ -414,6 +414,7 @@ The following git objects qualify as a **tree-ish**:
 >   - Commit the changes to the current branch
 >   - Remove the changes, checkout the files again
 >   - Stash the changes
+> - Install git-prompt.sh to configure command prompt to show the current branch in the command line.
 
 ### Rename branch:
 
@@ -434,4 +435,3 @@ The following git objects qualify as a **tree-ish**:
 
     // to delete a branch with unmerged commits
     git branch -D <branch>
-    
