@@ -124,6 +124,15 @@ Two Tree Architecture - Traditional        |  Three Tree Architecture - Git
 
 <br>
 
+## Tree-ish: 
+
+The following git objects qualify as a **tree-ish**:
+- SHA-1 hash
+- HEAD pointer reference
+- Branch reference
+- Tag reference
+- Ancestry
+
 ## Commonly Used Commands:
 
 ### Set configuration:
