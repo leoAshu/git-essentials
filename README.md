@@ -261,6 +261,9 @@ The following git objects qualify as a **tree-ish**:
     // filter all the meta data of the commits using regex 
     git log --grep="<regex>"
 
+    // show commits within a range
+    git log <commit_1_id>..<commit_2_id>
+
 
 ### Show specific commit:
 
