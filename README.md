@@ -415,4 +415,12 @@ The following git objects qualify as a **tree-ish**:
 >   - Remove the changes, checkout the files again
 >   - Stash the changes
 
-### 
+### Rename branch:
+
+    // renames the old branch with a new branch name
+    // does not require the old branch to be checked out
+    git branch -m <old_branch> <new_branch>
+
+    // renaming the current checked out branch
+    git branch -m <new_branch>
+    
