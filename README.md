@@ -297,7 +297,7 @@ The following git objects qualify as a **tree-ish**:
     git show <commit_id>
 
 
-### View changes in files/commits:
+### View changes in tree-ishes:
     
     // shows difference between old and new version of each file
 
@@ -322,6 +322,9 @@ The following git objects qualify as a **tree-ish**:
     // view differences between commits
     // HEAD can be used instead of the commit id to point to the latest commit 
     git diff <commit_1_id>..<commit_2_id>
+
+    // view differences between branches
+    git diff <branch_1>..<branch_2>
 
     // hit 'q' to exit out of diff view
 
@@ -387,6 +390,12 @@ The following git objects qualify as a **tree-ish**:
     // lists all the branches in the repository
     git branch
 
+    // lists all the branches that have their commits merged in current branch
+    git branch --merged
+
+    // lists all the branches whose commits are not merged in current branch
+    git branch --no-merged
+
     // create a new branch
     // allowed characters for branch name: [a-zA-Z0-9_]*
     git branch <new_branch>
@@ -405,3 +414,5 @@ The following git objects qualify as a **tree-ish**:
 >   - Commit the changes to the current branch
 >   - Remove the changes, checkout the files again
 >   - Stash the changes
+
+### 
