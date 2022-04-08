@@ -138,6 +138,7 @@ The following git objects qualify as a **tree-ish**:
 >- grandparent - `git show HEAD^^` or `git show HEAD~2`
 >- great-grandparent - `git show HEAD^^^` or `git show HEAD~3`
 
+<br>
 
 ## Commonly Used Commands:
 
@@ -360,7 +361,7 @@ The following git objects qualify as a **tree-ish**:
     // reverts the change done in the specified commit
     git revert <commit_id>
 
-## Remove untracked files:
+### Remove untracked files:
 
     // performs a dry run and informs which files would be deleted
     git clean -n
@@ -371,7 +372,7 @@ The following git objects qualify as a **tree-ish**:
     // remove untracked files in an interactive way
     git clean -i
     
-## List the directory contents:
+### List the directory contents:
     
     // lists the directories and files under a tree-ish(commit, branch, etc)
     // a file is labeled as blob(binary large object)
@@ -380,3 +381,16 @@ The following git objects qualify as a **tree-ish**:
 
     // list the content of a specific directory under a tree-ish
     git ls-tree <tree-ish> <path/>
+
+### Create and switch branch:
+
+    // lists all the branches in the repository
+    git branch
+
+    // create a new branch
+    // allowed characters for branch name: [a-zA-Z0-9_]*
+    git branch <new_branch>
+
+    // swtich to a branch
+    git checkout <branch_name>
+
