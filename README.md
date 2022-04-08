@@ -244,7 +244,6 @@ The following git objects qualify as a **tree-ish**:
 
     // lists all the commits
     git log
-
     
     // show commits with one-line commit messages
     // ignores the descriptions
@@ -259,8 +258,8 @@ The following git objects qualify as a **tree-ish**:
     // filter by author name
     git log --author="<author_name>"
 
-    // filter by commit message
-    git log --grep="<commit_message>"
+    // filter all the meta data of the commits using regex 
+    git log --grep="<regex>"
 
 
 ### Show specific commit:
