@@ -394,3 +394,5 @@ The following git objects qualify as a **tree-ish**:
     // swtich to a branch
     git checkout <branch_name>
 
+    // create and switch in one go
+    git checkout -b <new_branch>    
