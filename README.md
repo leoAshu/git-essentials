@@ -396,3 +396,8 @@ The following git objects qualify as a **tree-ish**:
 
     // create and switch in one go
     git checkout -b <new_branch>    
+    
+> Note:
+> - Cannot switch if changes in working directory conflict
+> - Can switch if changes in working directory can be applied without conflict
+> - Can switch if files are not being tracked
