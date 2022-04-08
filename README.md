@@ -245,10 +245,6 @@ The following git objects qualify as a **tree-ish**:
     // lists all the commits
     git log
     
-    // show commits with one-line commit messages
-    // ignores the descriptions
-    git log --oneline
-    
     // limits the number of commits to be shown
     git log -n <limit>
 
@@ -261,8 +257,36 @@ The following git objects qualify as a **tree-ish**:
     // filter all the meta data of the commits using regex 
     git log --grep="<regex>"
 
-    // show commits within a range
+    // filter by a range
     git log <commit_1_id>..<commit_2_id>
+
+    // filter by file
+    git log <file>
+
+    // formatting logs
+    // shows changes in form of change-sets or patches
+    git log -p
+
+    // formats log to give a statistical view
+    // shows the files changed and number of insertions(+) and deletions(-) in the files
+    git log --stat
+
+    // other formats: oneline, medium(default), full, fuller, email, raw
+    // gives shorter description of commits
+    git log --format=short
+
+    // show commits with one-line commit messages
+    // better than using --format=oneline
+    // ignores the descriptions
+    // shortens the commit id
+    git log --oneline
+
+    // provides a graphical view
+    // useful when multiple branches are present
+    git log --graph
+
+    // best combination of formatters
+    git log --graph --all --oneline --decorate
 
 
 ### Show specific commit:
