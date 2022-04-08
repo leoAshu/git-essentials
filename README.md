@@ -345,3 +345,12 @@ The following git objects qualify as a **tree-ish**:
     // remove untracked files in an interactive way
     git clean -i
     
+## List the directory contents:
+    
+    // lists the directories and files under a tree-ish(commit, branch, etc)
+    // a file is labeled as blob(binary large object)
+    // a directory is labeled as tree
+    git ls-tree <tree-ish>
+
+    // list the content of a specific directory under a tree-ish
+    git ls-tree <tree-ish> <path/>
