@@ -407,10 +407,10 @@ The following git objects qualify as a **tree-ish**:
     git checkout -b <new_branch>    
     
 > Note:-
-> - Cannot switch if changes in working directory conflict
-> - Can switch if changes in working directory can be applied without conflict
-> - Can switch if files are not being tracked
-> - To switch with uncommited changes:
+> - Cannot switch branch if changes in working directory conflict
+> - Can switch branch if changes in working directory can be applied without conflict
+> - Can switch branch if files are not being tracked
+> - To switch branch with uncommited changes:
 >   - Commit the changes to the current branch
 >   - Remove the changes, checkout the files again
 >   - Stash the changes
