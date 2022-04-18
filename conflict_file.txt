@@ -1,1 +1,1 @@
-This is text edited in master branch.
+This is text edited in master branch and test/conflicts branch.
