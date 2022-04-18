@@ -421,3 +421,24 @@ The following git objects qualify as a **tree-ish**:
 
     // to delete a branch with unmerged commits
     git branch -D <branch>
+
+### Reset branch:
+
+    // soft reset
+    // similar to git commit --amend
+    // moves HEAD pointer
+    // does not change staging index or working directory
+    git reset --soft <tree-ish>
+
+    // mixed reset
+    // default choice
+    // moves HEAD pointer
+    // changes staging index to match repository
+    // does not change working directory
+    git reset --mixed <tree-ish>
+
+    // hard reset
+    // moves HEAD pointer
+    // changes both staging index & working directory to match repository
+    git reset --hard <tree-ish>
+    
