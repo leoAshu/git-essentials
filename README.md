@@ -201,20 +201,6 @@ The following git objects qualify as a **tree-ish**:
     git add changed_file_1.txt changed_file_2.txt
 
 
-### Unstage changes:
-    
-    git reset <change_path>
-
-    // unstages all changed files in the directory
-    git reset .
-
-    // unstages a specific change
-    git reset changed_file.txt 
-
-    // unstages multiple files
-    git reset changed_file_1.txt changed_file_2.txt
-
-
 ### Commit changes:
 
     // makes the staged changes permanent and tracks them
