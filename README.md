@@ -447,4 +447,11 @@ The following git objects qualify as a **tree-ish**:
     // merge new branch into current branch
     git merge <new_branch>
 
+    // in case of merge conflicts:
+    // abort the merge
+    git merge --abort
+
+    // after resolving conflicts
+    git add <conflicted_files>
+    git commit
     
