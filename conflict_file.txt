@@ -1,1 +1,1 @@
-This is initial text.
+This is text edited in test/conflicts branch.
