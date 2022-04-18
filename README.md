@@ -457,4 +457,43 @@ The following git objects qualify as a **tree-ish**:
 
 ### Stash:
 
-    
+    // creates a new stash named stash_name
+    // moves the changes from working directory to the stash
+    // untracked changes are not stashed by default
+    git stash save <stash_name>
+
+    // to stash untracked files too
+    git stash -u
+    git stash --include-untracked
+
+    // view stashed changes
+    // lists all the stashes by name
+    git stash list
+
+    // show the changes in a particular stash
+    // lists all the modified files along with the changes as stats
+    git stash show <stash_id>
+
+    // to show the line-by-line changes
+    git stash show -p <stash_id>
+
+    // retrieve stash
+    // applies the changes of a stash to current branch's working directory
+    git stash apply <stash_id>
+
+    // applies and removes a specific stash 
+    // the newest stash is popped if stash_id is not provided
+    git stash pop
+    git stash pop <stash_id>
+
+    // delete stash
+    // removes a specific stash
+    git stash drop <stash_id>
+
+    // clears the stash list completely
+    git stash clear
+
+
+> Note:
+> - Similar to merge, while applying a stash, conflicts might occur.
+> - The conflicts are handled similar to merge conflicts.
