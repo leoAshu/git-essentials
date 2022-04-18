@@ -441,3 +441,10 @@ The following git objects qualify as a **tree-ish**:
     // moves HEAD pointer
     // changes both staging index & working directory to match repository
     git reset --hard <tree-ish>
+
+### Merge:
+
+    // merge new branch into current branch
+    git merge <new_branch>
+
+    
