@@ -454,4 +454,7 @@ The following git objects qualify as a **tree-ish**:
     // after resolving conflicts
     git add <conflicted_files>
     git commit
+
+### Stash:
+
     
