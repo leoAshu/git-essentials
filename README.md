@@ -512,3 +512,9 @@ The following git objects qualify as a **tree-ish**:
 
     // adds a remote repo url as origin
     git remote add origin <url>
+
+### Delete remote:
+
+    // removes the remote
+    git remote rm origin
+    
