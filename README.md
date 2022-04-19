@@ -522,6 +522,7 @@ The following git objects qualify as a **tree-ish**:
 
     // local branches need to be pushed individually
     // locally checkout branch to be created on remote
+    // -u ensures the remote branch gets tracked
     git push -u origin <branch>
 
 ### Clone a remote repository:
