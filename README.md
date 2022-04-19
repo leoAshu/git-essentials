@@ -524,5 +524,7 @@ The following git objects qualify as a **tree-ish**:
     // locally checkout branch to be created on remote
     git push -u origin <branch>
 
+
 > Note:
-> Use `git branch -r` to list all remote branches
+> Use `git branch -r` to list all remote branches.
+> Use `git branch -a` to list all branches(local + remote).
