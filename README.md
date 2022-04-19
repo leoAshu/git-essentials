@@ -505,3 +505,7 @@ The following git objects qualify as a **tree-ish**:
     // lists all added remotes
     git remote
 
+### Add remote:
+
+    // adds a remote repo url as origin
+    git remote add origin <url>
