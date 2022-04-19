@@ -497,3 +497,11 @@ The following git objects qualify as a **tree-ish**:
 > Note:
 > - Similar to merge, while applying a stash, conflicts might occur.
 > - The conflicts are handled similar to merge conflicts.
+
+## Remote Repositories:
+
+### Show remote:
+
+    // lists all added remotes
+    git remote
+
