@@ -517,4 +517,10 @@ The following git objects qualify as a **tree-ish**:
 
     // removes the remote
     git remote rm origin
+
+### Create remote branch:
+
+    // local branches need to be pushed individually
+    // locally checkout branch to be created on remote
+    git push -u origin <branch>
     
