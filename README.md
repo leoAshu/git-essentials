@@ -533,5 +533,6 @@ The following git objects qualify as a **tree-ish**:
     git clone <remote_repo_url> <repo_name>
 
 > Note:
+> Use `git branch` to list all local branches.
 > Use `git branch -r` to list all remote branches.
 > Use `git branch -a` to list all branches(local + remote).
