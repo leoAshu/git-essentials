@@ -504,6 +504,9 @@ The following git objects qualify as a **tree-ish**:
 
     // lists all added remotes
     git remote
+    
+    // shows remotes used for fetch and push
+    git remote -v
 
 ### Add remote:
 
