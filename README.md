@@ -566,4 +566,12 @@ The following git objects qualify as a **tree-ish**:
     // sets up the remote branch for tracking
     // switches to the new branch
     git branch -b <new_branch> <remote_branch>
-    git branch -b <new_branch> origin/branch_name
+    git branch -b <new_branch> origin/branch
+
+### Delete remote branch:
+
+    // remove a branch from the remote repo
+    // the branch can remain locally
+    // useful when a feature branch is complete and merged
+    git push origin :<branch>
+    git push origin --delete <branch>
