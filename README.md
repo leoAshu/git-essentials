@@ -525,6 +525,10 @@ The following git objects qualify as a **tree-ish**:
     // -u ensures the remote branch gets tracked
     git push -u origin <branch>
 
+> Note:
+> `git push` is also used to push changes to remote repo
+> if the remote branch is being tracked, need not mention branch name
+
 ### Clone a remote repository:
 
     // makes a copy of the remote repo locally
