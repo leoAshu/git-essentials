@@ -541,3 +541,11 @@ The following git objects qualify as a **tree-ish**:
 > Use `git branch` to list all local branches.
 > Use `git branch -r` to list all remote branches.
 > Use `git branch -a` to list all branches(local + remote).
+
+### Fetch from remote repository:
+
+    // syncs remote repo with local repo
+    // gets info like new commits, new branches
+    // does not merge any changes from remote to local repo
+    git fetch
+    
