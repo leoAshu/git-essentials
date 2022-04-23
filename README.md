@@ -558,3 +558,12 @@ The following git objects qualify as a **tree-ish**:
     // directly fetches and merges remote branch changes
     // fetch + merge
     git pull
+
+
+### Checkout remote branches:
+
+    // checkout a new branch from remote branch
+    // sets up the remote branch for tracking
+    // switches to the new branch
+    git branch -b <new_branch> <remote_branch>
+    git branch -b <new_branch> origin/branch_name
