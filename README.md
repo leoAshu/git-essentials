@@ -548,4 +548,13 @@ The following git objects qualify as a **tree-ish**:
     // gets info like new commits, new branches
     // does not merge any changes from remote to local repo
     git fetch
-    
+
+### Merge in fetched changes:
+
+    // merges the fetched changes of remote to local branch
+    // should follow a git fetch command
+    git merge origin/master
+
+    // directly fetches and merges remote branch changes
+    // fetch + merge
+    git pull
