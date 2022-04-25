@@ -169,8 +169,10 @@ The following git objects qualify as a **tree-ish**:
 
 ### Show command manual:
     
+    // git command
     git help <command_name>
 
+    // os command
     man git-<command_name>
 
 
