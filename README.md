@@ -588,3 +588,16 @@ The following git objects qualify as a **tree-ish**:
     // useful when a feature branch is complete and merged
     git push origin :<branch>
     git push origin --delete <branch>
+
+### Force push to remote:
+
+    // done when difference between local and remote branches
+    // discards the commits in remote branches, that are not present in local
+    git push -f
+    git push --force
+    
+> Notes:
+> Reasons to Force Push:
+>       - Local version is better than remote version.
+>       - Remote version went wrong and needs repair.
+>       - Versions have diverged and merging is undesirable.
