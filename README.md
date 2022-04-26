@@ -539,6 +539,7 @@ The following git objects qualify as a **tree-ish**:
     git push -u origin <branch>
 
 > Note:
+> 
 > `git push` is also used to push changes to remote repo
 > if the remote branch is being tracked, need not mention branch name
 
@@ -551,6 +552,7 @@ The following git objects qualify as a **tree-ish**:
     git clone <remote_repo_url> <repo_name>
 
 > Note:
+> 
 > Use `git branch` to list all local branches.
 > Use `git branch -r` to list all remote branches.
 > Use `git branch -a` to list all branches(local + remote).
@@ -597,7 +599,8 @@ The following git objects qualify as a **tree-ish**:
     git push --force
     
 > Notes:
+> 
 > Reasons to Force Push:
->       - Local version is better than remote version.
->       - Remote version went wrong and needs repair.
->       - Versions have diverged and merging is undesirable.
+>   - Local version is better than remote version.
+>   - Remote version went wrong and needs repair.
+>   - Versions have diverged and merging is undesirable.
