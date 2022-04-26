@@ -155,15 +155,16 @@ The following git objects qualify as a **tree-ish**:
     git config --global color.ui true
 
 > Notes:
+> 
 > config can be used to set aliases for commands
 > syntax: git config --global alias.<alias_name> "<command>"
 > Some popular aliases:
->       git config --global alias.st "status"
->       git config --global alias.co "checkout"
->       git config --global alias.ci "commit"
->       git config --global alias.br "branch"
->       git config --global alias.dfs "diff --staged"
->       git config --global alias.logg "log --graph --decorate --oneline --all"
+>   - git config --global alias.st "status"
+>   - git config --global alias.co "checkout"
+>   - git config --global alias.ci "commit"
+>   - git config --global alias.br "branch"
+>   - git config --global alias.dfs "diff --staged"
+>   - git config --global alias.logg "log --graph --decorate --oneline --all"
 
 
 ### Show configuration:
