@@ -155,7 +155,7 @@ The following git objects qualify as a **tree-ish**:
     git config --global color.ui true
 
 > Note:
-> - config can be used to set aliases for commands
+> - config can be used to set aliases for commands.
 > - Syntax: git config --global alias.<alias_name> <"command">
 > - Some popular aliases:
 >   - git config --global alias.st "status"
@@ -406,13 +406,13 @@ The following git objects qualify as a **tree-ish**:
     git checkout -b <new_branch>    
     
 > Note:-
-> - Cannot switch branch if changes in working directory conflict
-> - Can switch branch if changes in working directory can be applied without conflict
-> - Can switch branch if files are not being tracked
+> - Cannot switch branch if changes in working directory conflict.
+> - Can switch branch if changes in working directory can be applied without conflict.
+> - Can switch branch if files are not being tracked.
 > - To switch branch with uncommited changes:
->   - Commit the changes to the current branch
->   - Remove the changes, checkout the files again
->   - Stash the changes
+>   - Commit the changes to the current branch.
+>   - Remove the changes, checkout the files again.
+>   - Stash the changes.
 > - Install git-prompt.sh to configure command prompt to show the current branch.
 
 ### Rename branch:
@@ -540,7 +540,7 @@ The following git objects qualify as a **tree-ish**:
 
 > Note:
 > - `git push` is also used to push changes to remote repo.
-> - if the remote branch is being tracked, need not mention branch name.
+> - If the remote branch is being tracked, need not mention branch name.
 
 ### Clone a remote repository:
 
