@@ -601,3 +601,4 @@ The following git objects qualify as a **tree-ish**:
 >   - Local version is better than remote version.
 >   - Remote version went wrong and needs repair.
 >   - Versions have diverged and merging is undesirable.
+> - The other collaborators need to do a hard reset `git reset --hard origin/master` after a force push.
