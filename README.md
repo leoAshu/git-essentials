@@ -154,11 +154,10 @@ The following git objects qualify as a **tree-ish**:
     
     git config --global color.ui true
 
-> Notes:
-> 
-> config can be used to set aliases for commands
-> syntax: git config --global alias.<alias_name> "<command>"
-> Some popular aliases:
+> Note:
+> - config can be used to set aliases for commands
+> - Syntax: git config --global alias.<alias_name> <"command">
+> - Some popular aliases:
 >   - git config --global alias.st "status"
 >   - git config --global alias.co "checkout"
 >   - git config --global alias.ci "commit"
@@ -540,9 +539,8 @@ The following git objects qualify as a **tree-ish**:
     git push -u origin <branch>
 
 > Note:
-> 
-> `git push` is also used to push changes to remote repo
-> if the remote branch is being tracked, need not mention branch name
+> - `git push` is also used to push changes to remote repo.
+> - if the remote branch is being tracked, need not mention branch name.
 
 ### Clone a remote repository:
 
@@ -553,10 +551,9 @@ The following git objects qualify as a **tree-ish**:
     git clone <remote_repo_url> <repo_name>
 
 > Note:
-> 
-> Use `git branch` to list all local branches.
-> Use `git branch -r` to list all remote branches.
-> Use `git branch -a` to list all branches(local + remote).
+> - Use `git branch` to list all local branches.
+> - Use `git branch -r` to list all remote branches.
+> - Use `git branch -a` to list all branches(local + remote).
 
 ### Fetch from remote repository:
 
@@ -599,9 +596,8 @@ The following git objects qualify as a **tree-ish**:
     git push -f
     git push --force
     
-> Notes:
-> 
-> Reasons to Force Push:
+> Note:
+> - Reasons to Force Push:
 >   - Local version is better than remote version.
 >   - Remote version went wrong and needs repair.
 >   - Versions have diverged and merging is undesirable.
