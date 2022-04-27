@@ -586,6 +586,7 @@ The following git objects qualify as a **tree-ish**:
     // remove a branch from the remote repo
     // the branch can remain locally
     // useful when a feature branch is complete and merged
+    // deletes both tracking and corresponding remote branches
     git push origin :<branch>
 
     // command support from v1.7.0+
@@ -593,6 +594,14 @@ The following git objects qualify as a **tree-ish**:
 
     // short notation support from v2.8.0+
     git push -d origin <branch>
+
+> Note:
+> - If a collaborator deletes a remote branch, the tracking branch still remains on others' local system.
+> - Use `git remote prune origin` to clean the stale tracking branches from local system.
+> - `git remote prune origin --dry-run` shows what branches would be pruned.
+> - A `git fetch` does not clean the stale tracking branches automatically.
+> - Shortcut: prune, then fetch - `git fetch --prune/-p`
+> - Config to always prune before fetch: `git config --global fetch.prune true`
 
 ### Force push to remote:
 
