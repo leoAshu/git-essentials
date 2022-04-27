@@ -429,10 +429,10 @@ The following git objects qualify as a **tree-ish**:
     // deletes the specified branch
     // can specify more than one branch names to be deleted
     // cannot delete the current checked out branch
-    // cannot delete a branch with commits that have not been merged
+    // git objects deletion if branch is not merged to other branch
     git branch -d <branch>
 
-    // to delete a branch with unmerged commits
+    // force delete a not yet merged branch
     git branch -D <branch>
 
 ### Reset:
