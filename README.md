@@ -587,6 +587,8 @@ The following git objects qualify as a **tree-ish**:
     // the branch can remain locally
     // useful when a feature branch is complete and merged
     git push origin :<branch>
+
+    // command added in v1.7.0+
     git push origin --delete <branch>
 
 ### Force push to remote:
