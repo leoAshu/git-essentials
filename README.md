@@ -588,8 +588,11 @@ The following git objects qualify as a **tree-ish**:
     // useful when a feature branch is complete and merged
     git push origin :<branch>
 
-    // command added in v1.7.0+
-    git push origin --delete <branch>
+    // command support from v1.7.0+
+    git push --delete origin <branch>
+
+    // short notation support from v2.8.0+
+    git push -d origin <branch>
 
 ### Force push to remote:
 
