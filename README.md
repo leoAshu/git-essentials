@@ -581,6 +581,7 @@ The following git objects qualify as a **tree-ish**:
     git branch -b <new_branch> <remote_branch>
     git branch -b <new_branch> origin/branch
 
+
 ### Delete remote branch:
 
     // remove a branch from the remote repo
@@ -603,6 +604,7 @@ The following git objects qualify as a **tree-ish**:
 > - Shortcut: prune, then fetch - `git fetch --prune/-p`
 > - Config to always prune before fetch: `git config --global fetch.prune true`
 
+
 ### Force push to remote:
 
     // done when difference between local and remote branches
@@ -616,6 +618,7 @@ The following git objects qualify as a **tree-ish**:
 >   - Remote version went wrong and needs repair.
 >   - Versions have diverged and merging is undesirable.
 > - The other collaborators need to do a hard reset `git reset --hard origin/master` after a force push.
+
 
 ### Create Tags:
 
@@ -633,3 +636,17 @@ The following git objects qualify as a **tree-ish**:
     // alternate way to create annotated tags
     git tag -am <message> <tag>
     git tag -am "version 1.0" v1.1 dd5c49428a0
+
+
+### List tags:
+
+    // list all tags
+    git tag --list
+    git tag -l
+
+    // filter and list tags
+    git tag -l "filter_string"
+
+    // list all tags beginning with "v2"
+    git tag -l "v2*"
+    
