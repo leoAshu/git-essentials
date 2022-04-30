@@ -616,3 +616,13 @@ The following git objects qualify as a **tree-ish**:
 >   - Remote version went wrong and needs repair.
 >   - Versions have diverged and merging is undesirable.
 > - The other collaborators need to do a hard reset `git reset --hard origin/master` after a force push.
+
+### Create Tags:
+
+    // a named reference to a commit
+    // most often used to mark releases (v1.0, v1.1)
+    // add a lightweight tag
+    git tag <tag_name> <commit_id>
+    git tag issue136 655da716e7
+    
+    
