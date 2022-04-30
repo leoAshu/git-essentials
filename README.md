@@ -630,3 +630,6 @@ The following git objects qualify as a **tree-ish**:
     git tag -a <tag> -m <message> <commit_id>
     git tag -a v1.1 -m "version 1.0" dd5c49428a0
     
+    // alternate way to create annotated tags
+    git tag -am <message> <tag>
+    git tag -am "version 1.0" v1.1 dd5c49428a0
