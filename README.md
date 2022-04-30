@@ -312,7 +312,7 @@ The following git objects qualify as a **tree-ish**:
     git diff changed_file.txt 
 
     // shows difference in multiple modified files
-    git reset changed_file_1.txt changed_file_2.txt
+    git diff changed_file_1.txt changed_file_2.txt
 
     // compares staging tree version against repository version of the files (staged/cached)
     git diff --staged
