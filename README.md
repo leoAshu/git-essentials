@@ -359,9 +359,6 @@ The following git objects qualify as a **tree-ish**:
     // retrieve old versions of files using commit id
     git checkout <commit_id> -- <file>
 
-    // revert commit
-    // reverts the change done in the specified commit
-    git revert <commit_id>
 
 ### Remove untracked files:
 
@@ -455,6 +452,20 @@ The following git objects qualify as a **tree-ish**:
     // changes both staging index & working directory to match repository
     git reset --hard <tree-ish>
 
+    // revert commit
+    // alternate safe option
+    // reverts the change done in the specified commit
+    git revert <commit_id>
+
+> Note:
+> - Both reset and revert serve the same purpose.
+> - However, there is key difference in how both commands achieve the objective.
+> - Reset discards and orphans the undesired commits.
+> - Revert makes a new commit after making the necessary changes.
+> - Hence, using revert is safer when multiple collaborators share the repository.
+> - Reset should be used in non-collaborative repositories.
+
+
 ### Merge:
 
     // merge new branch into current branch
@@ -467,6 +478,7 @@ The following git objects qualify as a **tree-ish**:
     // after resolving conflicts
     git add <conflicted_files>
     git commit
+
 
 ### Stash:
 
@@ -511,6 +523,7 @@ The following git objects qualify as a **tree-ish**:
 > - Similar to merge, while applying a stash, conflicts might occur.
 > - The conflicts are handled similar to merge conflicts.
 
+
 ## Remote Repositories:
 
 ### Show remote:
@@ -521,15 +534,18 @@ The following git objects qualify as a **tree-ish**:
     // shows remotes used for fetch and push
     git remote -v
 
+
 ### Add remote:
 
     // adds a remote repo url as origin
     git remote add origin <url>
 
+
 ### Delete remote:
 
     // removes the remote
     git remote rm origin
+
 
 ### Create remote branch:
 
@@ -541,6 +557,7 @@ The following git objects qualify as a **tree-ish**:
 > Note:
 > - `git push` is also used to push changes to remote repo.
 > - If the remote branch is being tracked, need not mention branch name.
+
 
 ### Clone a remote repository:
 
@@ -555,12 +572,14 @@ The following git objects qualify as a **tree-ish**:
 > - Use `git branch -r` to list all remote branches.
 > - Use `git branch -a` to list all branches(local + remote).
 
+
 ### Fetch from remote repository:
 
     // syncs remote repo with local repo
     // gets info like new commits, new branches
     // does not merge any changes from remote to local repo
     git fetch
+
 
 ### Merge in fetched changes:
 
@@ -571,6 +590,7 @@ The following git objects qualify as a **tree-ish**:
     // directly fetches and merges remote branch changes
     // fetch + merge
     git pull
+
 
 
 ### Checkout remote branches:
