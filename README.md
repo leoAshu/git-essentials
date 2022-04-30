@@ -622,7 +622,11 @@ The following git objects qualify as a **tree-ish**:
     // a named reference to a commit
     // most often used to mark releases (v1.0, v1.1)
     // add a lightweight tag
-    git tag <tag_name> <commit_id>
+    git tag <tag> <commit_id>
     git tag issue136 655da716e7
     
+    // annotated tag (most common)
+    // can add one line or multi-line message
+    git tag -a <tag> -m <message> <commit_id>
+    git tag -a v1.1 -m "version 1.0" dd5c49428a0
     
