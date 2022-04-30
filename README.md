@@ -649,4 +649,8 @@ The following git objects qualify as a **tree-ish**:
 
     // list all tags beginning with "v2"
     git tag -l "v2*"
+
+    // list tags with annotations
+    git tag -l -n
+    git tag -ln
     
