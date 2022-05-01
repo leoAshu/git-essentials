@@ -701,6 +701,8 @@ The following git objects qualify as a **tree-ish**:
         git fetch --tags
 
         // use push to delete a remote tag
+        // similar to deleting a remote branch
         git push origin :<tag>
         git push --delete origin <tag>
         git push -d origin <tag>
+
