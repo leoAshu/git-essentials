@@ -219,6 +219,15 @@ The following git objects qualify as a **tree-ish**:
     git add --interactive
     git add -i
 
+<br>
+<p align="center">
+    <image src="images/interactive-staging.png">
+</p>
+<p align="center">
+    <b>Sample Workflow - </b>Involving three changes A, B, C
+</p>
+<br>
+
 
 ### Commit changes:
 
