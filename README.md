@@ -728,4 +728,4 @@ The following git objects qualify as a **tree-ish**:
 >       - Tag the commit (HEAD detached): `git tag temp`
 >       - Create a branch (HEAD detached): `git branch temp_branch`
 >       - Create a branch and reattach HEAD: `git checkout -b temp_branch`
-> - To simply get out of the detached HEAD state, switch to any branch: `git checkout master`
+>   - To simply get out of the detached HEAD state, switch to any branch: `git checkout master`
