@@ -706,3 +706,26 @@ The following git objects qualify as a **tree-ish**:
         git push --delete origin <tag>
         git push -d origin <tag>
 
+
+### Checkout tags:
+
+- Tags are not branches.
+- Tags can be checked out, just like any commit.
+  
+        // optimal way to checkout a tag
+        // create a branch from the tag
+        git checkout -b <new_branch> <tag>
+
+
+> Note:
+> - It's also possible to directly checkout a tag using `git checkout <tag>`.
+> - This leads to a state known as **Detached HEAD State**:
+>   - Checking out a commit puts the local repo in a detached HEAD state.
+>   - It's like being on an unnamed branch.
+>   - New commits will not belong to any branch.
+>   - Detached commits will be garbage collected (~ 2 weeks).
+>   - There are 3 ways to save the orphaned commits:
+>       - Tag the commit (HEAD detached): `git tag temp`
+>       - Create a branch (HEAD detached): `git branch temp_branch`
+>       - Create a branch and reattach HEAD: `git checkout -b temp_branch`
+> - To simply get out of the detached HEAD state, switch to any branch: `git checkout master`
