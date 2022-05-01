@@ -675,3 +675,9 @@ The following git objects qualify as a **tree-ish**:
     git tag -l -n
     git tag -ln
     
+
+### Delete tags:
+
+    // deletes a tag
+    git tag --delete <tag>
+    git tag -d <tag>
