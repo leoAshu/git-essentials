@@ -213,6 +213,12 @@ The following git objects qualify as a **tree-ish**:
     // stages multiple files
     git add changed_file_1.txt changed_file_2.txt
 
+    // stage interactively
+    // provides a command line based gui
+    // can stage specific files or even specific lines
+    git add --interactive
+    git add -i
+
 
 ### Commit changes:
 
