@@ -652,6 +652,7 @@ The following git objects qualify as a **tree-ish**:
     // can add one line or multi-line message
     git tag -a <tag> -m <message> <commit_id>
     git tag -a v1.1 -m "version 1.0" dd5c49428a0
+    git tag -a -m "version 2.0" v2.0 94857bb4fc6
     
     // alternate way to create annotated tags
     git tag -am <message> <tag>
