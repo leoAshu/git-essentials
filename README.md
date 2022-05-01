@@ -678,6 +678,27 @@ The following git objects qualify as a **tree-ish**:
 
 ### Delete tags:
 
-    // deletes a tag
+    // deletes a local tag
     git tag --delete <tag>
     git tag -d <tag>
+
+
+### Push tags to remote:
+
+- Tags are local unless shared to a remote.
+- `git push` does not transfer tags.
+- Tags must be explicitly transferred.
+- `git fetch` automatically retrieves shared tags.
+
+        // push a tag to remote
+        git push origin <tag>
+
+        // push all tags to remote
+        git push origin --tags
+
+        // fetch only tags (with necessary commits)
+        // rarely used
+        git fetch --tags
+
+        // use push to delete a remote tag
+        git push origin :<tag>
