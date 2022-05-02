@@ -311,9 +311,9 @@ The following git objects qualify as a **tree-ish**:
     git show <commit_id>
 
 
-### View changes in tree-ishes:
+### View difference between tree-ishes:
     
-    // shows difference between old and new version of each file
+    // shows difference between two versions of each file
 
     // lists differences in all modified files
     // shows the line by line difference between file versions
@@ -354,9 +354,9 @@ The following git objects qualify as a **tree-ish**:
 
 ### Moving or Renaming files:
 
-    // manually moving or renaming a file is identified as deleting old file and adding new file
-    // upon staging it is recognized as rename operation
-    // moving a file using command line is identified as renaming and is automatically staged
+- Manually moving or renaming a file is identified as deleting old file and adding new file.
+- Upon staging it is recognized as rename operation.
+- moving a file using `git mv` command is identified as renaming and is automatically staged.
 
     // renaming file name
     git mv <old_file_name> <new_file_name>
@@ -532,7 +532,6 @@ The following git objects qualify as a **tree-ish**:
 
     // clears the stash list completely
     git stash clear
-
 
 > Note:
 > - Similar to merge, while applying a stash, conflicts might occur.
