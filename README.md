@@ -670,7 +670,7 @@ The following git objects qualify as a **tree-ish**:
     git tag -a -m "version 2.0" v2.0 94857bb4fc6
     
     // alternate way to create annotated tags
-    git tag -am <message> <tag>
+    git tag -am <message> <tag> <commit_id>
     git tag -am "version 1.0" v1.1 dd5c49428a0
 
 
