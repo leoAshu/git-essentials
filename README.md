@@ -796,3 +796,7 @@ The following git objects qualify as a **tree-ish**:
 - Useful when collaborators do not share a remote.
 - Often used in discussions, reviews or approval processes.
   
+### Create diff patches:
+
+    // create a diff patch file
+    git diff <commit_id_1> <commit_id_2> > <file_name.diff>
