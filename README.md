@@ -816,4 +816,4 @@ The following git objects qualify as a **tree-ish**:
 - No commit history transferred.
 
         // apply a diff patch file
-        git apply <file_name.diff>
+        git apply <path/file_name.diff>
