@@ -653,6 +653,7 @@ The following git objects qualify as a **tree-ish**:
 >   - Versions have diverged and merging is undesirable.
 > - The other collaborators need to do a hard reset `git reset --hard origin/master` after a force push.
 
+
 ## Tags:
 
 - Tags are named reference to a commit.
@@ -660,6 +661,7 @@ The following git objects qualify as a **tree-ish**:
 - Two types of tags:
   - lightweight tags
   - annotated tags
+
 
 ### Create Tags:
 
@@ -789,6 +791,7 @@ The following git objects qualify as a **tree-ish**:
 > - After resolving the conflicts, `git add` is to be used to mark resolution.
 > - Only after resolution is marked, use command `git cherry-pick --continue`
 
+
 ## Diff Patches:
 
 - Share changes via files.
@@ -796,6 +799,7 @@ The following git objects qualify as a **tree-ish**:
 - Useful when collaborators do not share a remote.
 - Often used in discussions, reviews or approval processes.
   
+
 ### Create diff patches:
 
     // create a diff patch file
@@ -809,6 +813,7 @@ The following git objects qualify as a **tree-ish**:
 > - If we want commit-3 and commit-2 to be in a diff patch, command will be:
 >   - `git diff commit1 commit3 > output.diff`
 
+
 ### Apply diff patches:
 
 - Apply changes in a diff patch file to the working directory.
@@ -821,3 +826,5 @@ The following git objects qualify as a **tree-ish**:
 > Note:
 > - A patch cannot be applied to any working directory.
 > - The current state of the working directory is a deciding factor in the applicability of a patch.
+
+
