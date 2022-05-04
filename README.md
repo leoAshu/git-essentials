@@ -809,3 +809,11 @@ The following git objects qualify as a **tree-ish**:
 > - If we want commit-3 and commit-2 to be in a diff patch, command will be:
 >   - `git diff commit1 commit3 > output.diff`
 
+### Apply diff patches:
+
+- Apply changes in a diff patch file to the working directory.
+- Makes changes, but not commits.
+- No commit history transferred.
+
+        // apply a diff patch file
+        git apply <file_name.diff>
