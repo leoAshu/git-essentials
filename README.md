@@ -653,11 +653,16 @@ The following git objects qualify as a **tree-ish**:
 >   - Versions have diverged and merging is undesirable.
 > - The other collaborators need to do a hard reset `git reset --hard origin/master` after a force push.
 
+## Tags:
+
+- Tags are named reference to a commit.
+- Most often used to mark releases or special points in history.
+- Two types of tags:
+  - lightweight tags
+  - annotated tags
 
 ### Create Tags:
 
-    // a named reference to a commit
-    // most often used to mark releases (v1.0, v1.1)
     // add a lightweight tag
     git tag <tag> <commit_id>
     git tag issue136 655da716e7
@@ -780,3 +785,6 @@ The following git objects qualify as a **tree-ish**:
 > - After resolving the conflicts, `git add` is to be used to mark resolution.
 > - Only after resolution is marked, use command `git cherry-pick --continue`
 
+### Create Diff Patches:
+
+-
