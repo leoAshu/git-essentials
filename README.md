@@ -789,6 +789,10 @@ The following git objects qualify as a **tree-ish**:
 > - After resolving the conflicts, `git add` is to be used to mark resolution.
 > - Only after resolution is marked, use command `git cherry-pick --continue`
 
-### Create Diff Patches:
+## Diff Patches:
 
--
+- Share changes via files.
+- Useful when changes are not ready for a public branch.
+- Useful when collaborators do not share a remote.
+- Often used in discussions, reviews or approval processes.
+  
