@@ -749,18 +749,22 @@ The following git objects qualify as a **tree-ish**:
 >       - Create a branch and reattach HEAD: `git checkout -b temp_branch`
 >   - To simply get out of the detached HEAD state, switch to any branch: `git checkout master`
 
-### Cherry-Picking Commits:
+
+## Cherry-pick:
 
 - Apply the changes from one or more existing commits.
 - Each **cherry-picked** commit is recorded as a new commit on the current branch.
 - Conceptually similar to copy-paste.
 - New commits will have different SHAs.
 
-        // cherry-pick a specific commit
-        git cherry-pick <commit_id>
 
-        // cherry-pick a range of commits
-        git cherry-pick <start_commit_id>..<end_commit_id>
+### Cherry-picking Commits:
+
+    // cherry-pick a specific commit
+    git cherry-pick <commit_id>
+
+    // cherry-pick a range of commits
+    git cherry-pick <start_commit_id>..<end_commit_id>
 
 > Note:
 > - Cannot cherry-pick a merge commit.
@@ -769,7 +773,7 @@ The following git objects qualify as a **tree-ish**:
 > - Can result in conflicts which must be resolved.
 
 
-### Cherry-picking Conflicts:
+### Cherry-picking conflicts:
 
 - Can abort cherry-picking in case of conflict.
 - Can resolve the conflicts and continue with cherry-picking.
