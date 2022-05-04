@@ -762,3 +762,15 @@ The following git objects qualify as a **tree-ish**:
 > - By default, the same commit message wil be used.
 > - The original commit message can be modified using --edit or -e flag followed by the new commit message.
 > - Can result in conflicts which must be resolved.
+
+
+### Cherry-picking Conflicts:
+
+- Can abort cherry-picking in case of conflict.
+- Can resolve the conflicts and continue with cherry-picking.
+
+        // abort cherry-picking
+        git cherry-pick --abort
+
+        // continue after resolving conflicts
+        git cherry-pick --continue
