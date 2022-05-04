@@ -757,3 +757,8 @@ The following git objects qualify as a **tree-ish**:
         // cherry-pick a range of commits
         git cherry-pick <start_commit_id>..<end_commit_id>
 
+> Note:
+> - Cannot cherry-pick a merge commit.
+> - By default, the same commit message wil be used.
+> - The original commit message can be modified using --edit or -e flag followed by the new commit message.
+> - Can result in conflicts which must be resolved.
