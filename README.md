@@ -828,3 +828,19 @@ The following git objects qualify as a **tree-ish**:
 > - The current state of the working directory is a deciding factor in the applicability of a patch.
 
 
+### Create Formatted patches:
+
+- Export each commit in Unix mailbox format.
+- Useful for email distribution of changes.
+- Is a regular diff file including commit messages.
+- One commit per file by default.
+
+        // export a single commit
+        git format-patch -1 <commit_id>
+
+        // export range of commits as formatted patch
+        git format-patch <commit_id_1>..<commit_id_2>
+
+        // scenario: export all commits on current branch which are not in master branch
+        // by default considers blank as HEAD
+        git format-patch master
