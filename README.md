@@ -800,3 +800,12 @@ The following git objects qualify as a **tree-ish**:
 
     // create a diff patch file
     git diff <commit_id_1> <commit_id_2> > <file_name.diff>
+
+> Note:
+> - Let there be three successive commits:
+>   - commit-3 (latest / HEAD)
+>   - commit-2
+>   - commit-1 (oldest)
+> - If we want commit-3 and commit-2 to be in a diff patch, command will be:
+>   - `git diff commit1 commit3 > output.diff`
+
