@@ -817,3 +817,7 @@ The following git objects qualify as a **tree-ish**:
 
         // apply a diff patch file
         git apply <path/file_name.diff>
+
+> Note:
+> - A patch cannot be applied to any working directory.
+> - The current state of the working directory is a deciding factor in the applicability of a patch.
