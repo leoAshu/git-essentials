@@ -774,3 +774,9 @@ The following git objects qualify as a **tree-ish**:
 
         // continue after resolving conflicts
         git cherry-pick --continue
+
+> Note:
+> - Cherry-picking will automatically be paused in case of conflicts.
+> - After resolving the conflicts, `git add` is to be used to mark resolution.
+> - Only after resolution is marked, use command `git cherry-pick --continue`
+
