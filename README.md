@@ -828,7 +828,7 @@ The following git objects qualify as a **tree-ish**:
 > - The current state of the working directory is a deciding factor in the applicability of a patch.
 
 
-### Create Formatted patches:
+### Create formatted patches:
 
 - Export each commit in Unix mailbox format.
 - Useful for email distribution of changes.
@@ -865,4 +865,3 @@ The following git objects qualify as a **tree-ish**:
 
         // apply all patches in a directory
         git am <directory>/*.patch
-        
