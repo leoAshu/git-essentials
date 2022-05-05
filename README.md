@@ -858,3 +858,11 @@ The following git objects qualify as a **tree-ish**:
 - extract author, commit message, and changes from a mailbox message and apply them to the current branch.
 - Similar to cherry-picking: same changes, different SHAs.
 - Unlike diff patch, commit history is transferred.
+
+        // apply single patch
+        // am: apply mailbox patch
+        git am <filename.patch>
+
+        // apply all patches in a directory
+        git am <directory>/*.patch
+        
