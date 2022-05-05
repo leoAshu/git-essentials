@@ -851,3 +851,8 @@ The following git objects qualify as a **tree-ish**:
 
         // output patches as a single file
         git format-patch <commit_id_start>..<commit_id_end> --stdout > <filename.patch>
+        
+
+### Apply formatted patches:
+
+- extract author, commit message, and changes from a mailbox message and apply them to the current branch.
