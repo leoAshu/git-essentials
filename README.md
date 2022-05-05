@@ -844,3 +844,7 @@ The following git objects qualify as a **tree-ish**:
         // scenario: export all commits on current branch which are not in master branch
         // by default considers blank as HEAD
         git format-patch master
+
+        // put patch files into a directory
+        git format-patch master -o <directory_name>
+        
