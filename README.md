@@ -848,3 +848,6 @@ The following git objects qualify as a **tree-ish**:
         // put patch files into a directory
         // creates the directory if not present
         git format-patch master -o <directory_name>
+
+        // output patches as a single file
+        git format-patch <commit_id_start>..<commit_id_end> --stdout > <filename.patch>
