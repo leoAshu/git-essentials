@@ -865,3 +865,12 @@ The following git objects qualify as a **tree-ish**:
 
         // apply all patches in a directory
         git am <directory>/*.patch
+
+
+## Rebase Commits:
+
+- Take commits from a branch and replay them at the end of another branch.
+- Useful to integrate recent commits without merging.
+- Maintains a cleaner, more linear project history.
+- Ensures topic branch commits apply cleanly.
+
