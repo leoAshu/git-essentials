@@ -856,3 +856,5 @@ The following git objects qualify as a **tree-ish**:
 ### Apply formatted patches:
 
 - extract author, commit message, and changes from a mailbox message and apply them to the current branch.
+- Similar to cherry-picking: same changes, different SHAs.
+- Unlike diff patch, commit history is transferred.
