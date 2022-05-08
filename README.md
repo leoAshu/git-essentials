@@ -899,7 +899,7 @@ The following git objects qualify as a **tree-ish**:
 > | Logs can become cluttered, non-linear.      | Logs are cleaner, more linear.                         |
 
 
-### Rebase branches:
+### Rebase onto parent(master) branch:
 
     // rebase current branch to tip of master
     git rebase master
@@ -923,3 +923,17 @@ The following git objects qualify as a **tree-ish**:
  - Before using `git rebase --continue`, make sure the conflicts are also marked resolved using `git add <conflicted_file>`.
  - In order to skip a conflicting commit, use `git rebase --skip` to move on to other commits.
  - Rebasing can also be stopped by using `git rebase --abort`.
+
+
+### Rebase onto other branches:
+
+- Has three parameters:
+  - newbase
+  - upstream
+  - branch
+- The command specifies to gather commits from the <branch> branch upto the point where <branch> diverges from <upstream> branch and rebase the commits on <newbase> branch.
+
+
+        // syntax
+        git rebase --onto <newbase> <upstream> <branch>
+        git rebase --onto master ui ui_rework
