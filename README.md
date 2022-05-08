@@ -912,3 +912,13 @@ The following git objects qualify as a **tree-ish**:
 >   - Useful for visualizing branches: `git log --graph --all --decorate --oneline`
 >   - Return commit where specific branch diverges: `git merge-base master <branch_name>`
 
+
+### Rebase conflicts:
+
+ - Rebasing creates new commits on existing code.
+ - May conflict with existing code.
+ - Git pauses rebase before each conflicting commit, waiting for it to be resolved before proceeding with other commits.
+ - Similar to resolving merge conflicts.
+ - Unlike merge, after resolving commits, `git rebase --continue` is used instead of `git commit`.
+ - In order to skip a conflicting commit, use `git rebase --skip` to move on to other commits.
+ - Rebasing can also be stopped by using `git rebase --abort`.
