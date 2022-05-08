@@ -874,6 +874,23 @@ The following git objects qualify as a **tree-ish**:
 - Maintains a cleaner, more linear project history.
 - Ensures topic branch commits apply cleanly.
 
+> Note:
+>
+> - ### Thou shalt not rebase a public branch.
+>   - Rebase abandons existing, shared commits and creates new, similar commits instead. 
+>   - Collaborators would see the project history vanish.
+>   - Getting all collaborators back in sync can be a nightmare.
+>
+> - ### Merge vs Rebase
+>
+> |                    Merge                    |                         Rebase                         |
+> | :------------------------------------------ | :----------------------------------------------------- |
+> | Adds a merge commit.                        | No additional merge commit.                            |
+> | Nondestructive.                             | Destructive: SHA changes, commits are rewritten.       |
+> | Complete record of what happened and when.  | No longer a complete record of what happened and when. |
+> | Easy to undo.                               | Tricky to undo.                                        |
+> | Logs can become cluttered, non-linear.      | Logs are cleaner, more linear.                         |
+
 ### Rebase branches:
 
     // rebase current branch to tip of master
