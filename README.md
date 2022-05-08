@@ -882,3 +882,8 @@ The following git objects qualify as a **tree-ish**:
     // rebase speicifc branch to tip of master
     git rebase master <branch_name>
 
+> Note:
+> - Two very useful commands while rebasing:
+>   - Useful for visualizing branches: `git log --graph --all --decorate --oneline`
+>   - Return commit where specific branch diverges: `git merge-base master <branch_name>`
+
