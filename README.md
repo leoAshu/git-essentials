@@ -876,11 +876,18 @@ The following git objects qualify as a **tree-ish**:
 
 > Note:
 >
-> - ### Thou shalt not rebase a public branch.
+> - ### The Golden Rule of Rebasing: Thou shalt not rebase a public branch.
 >   - Rebase abandons existing, shared commits and creates new, similar commits instead. 
 >   - Collaborators would see the project history vanish.
 >   - Getting all collaborators back in sync can be a nightmare.
 >
+> - ### How to Choose - Merge or Rebase?
+>   - **Merge** to allow commits to stand out or to be clearly grouped.
+>   - **Merge** to bring large topic branches back into master.
+>   - **Rebase** to add minor commits in master to a topic branch.
+>   - **Rebase** to move commits from one branch to another.
+>   - **Merge** anytime the topic branch is already public and being used by others. **(The Golden Rule of Rebasing)**
+> 
 > - ### Merge vs Rebase
 >
 > |                    Merge                    |                         Rebase                         |
@@ -890,6 +897,7 @@ The following git objects qualify as a **tree-ish**:
 > | Complete record of what happened and when.  | No longer a complete record of what happened and when. |
 > | Easy to undo.                               | Tricky to undo.                                        |
 > | Logs can become cluttered, non-linear.      | Logs are cleaner, more linear.                         |
+
 
 ### Rebase branches:
 
