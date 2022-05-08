@@ -867,10 +867,18 @@ The following git objects qualify as a **tree-ish**:
         git am <directory>/*.patch
 
 
-## Rebase Commits:
+## Rebase:
 
 - Take commits from a branch and replay them at the end of another branch.
 - Useful to integrate recent commits without merging.
 - Maintains a cleaner, more linear project history.
 - Ensures topic branch commits apply cleanly.
+
+### Rebase branches:
+
+    // rebase current branch to tip of master
+    git rebase master
+
+    // rebase speicifc branch to tip of master
+    git rebase master <branch_name>
 
