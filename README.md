@@ -503,8 +503,8 @@ The following git objects qualify as a **tree-ish**:
     git stash save <stash_name>
 
     // to stash untracked files too
-    git stash -u
-    git stash --include-untracked
+    git stash save -u <stash_name>
+    git stash save --include-untracked <stash_name>
 
     // view stashed changes
     // lists all the stashes by name
