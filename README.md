@@ -941,10 +941,10 @@ The following git objects qualify as a **tree-ish**:
 
 ### Undo a rebase:
 
- - Can undo simple rebases.
- - Rebase is destructive.
- - SHAs, commit messages, change sets can be altered.
- - Undoing complex rebases may lose data.
+- Can undo simple rebases.
+- Rebase is destructive.
+- SHAs, commit messages, change sets can be altered.
+- Undoing complex rebases may lose data.
 
         // undo, unless ORIG_HEAD has changed again
         git reset --hard ORIG_HEAD
