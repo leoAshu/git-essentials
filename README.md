@@ -951,3 +951,6 @@ The following git objects qualify as a **tree-ish**:
 
         // undo by rebasing to former merge-base SHA
         git rebase --onto 9291f0c88 master new_feature
+
+### Interactive rebasing:
+
