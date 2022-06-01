@@ -958,8 +958,13 @@ The following git objects qualify as a **tree-ish**:
 - Opens the git-rebase-todo file for editing.
 - Can reorder or skip commits.
 - Can edit commit contents.
-- Interactive rebase choices-
-    - pick, drop
-    - reword, edit
-    - squash, fixup
-    - exec 
+
+        //interactive rebase
+        git rebase -i master new_feature
+
+> Note:
+> - Interactive rebase choices:
+>    - pick, drop
+>    - reword, edit
+>    - squash, fixup
+>    - exec 
