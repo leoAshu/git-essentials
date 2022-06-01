@@ -954,3 +954,7 @@ The following git objects qualify as a **tree-ish**:
 
 ### Interactive rebasing:
 
+- Chance to modify commits as they are being replayed.
+- Opens the git-rebase-todo file for editing.
+- Can reorder or skip commits.
+- Can edit commit contents.
