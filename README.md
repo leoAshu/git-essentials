@@ -985,3 +985,6 @@ The following git objects qualify as a **tree-ish**:
         git pull -r
 
 ## Log Options:
+
+- Log is the primary interface to Git.
+- Log has many options like sorting, filtering and output formatting.
