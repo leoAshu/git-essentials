@@ -976,4 +976,7 @@ The following git objects qualify as a **tree-ish**:
 
 ### Pull rebase:
 
-
+- Fetch from remote, then rebase instead of merging.
+- Keeps history cleaner by reducing merge commits.
+- Only use on local commits, that have not been shared to remote.
+    
