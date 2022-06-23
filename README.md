@@ -959,7 +959,7 @@ The following git objects qualify as a **tree-ish**:
 - Can reorder or skip commits.
 - Can edit commit contents.
 
-        //interactive rebase
+        // interactive rebase
         git rebase -i master new_feature
 
 > Note:
@@ -980,3 +980,7 @@ The following git objects qualify as a **tree-ish**:
 - Keeps history cleaner by reducing merge commits.
 - Only use on local commits, that have not been shared to remote.
     
+        // pull rebase
+        git pull --rebase
+        git pull -r
+        
