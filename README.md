@@ -973,3 +973,7 @@ The following git objects qualify as a **tree-ish**:
 >   - squash: combine change sets, concatenate messages
 >   - fixup: combine change sets, discards commit message
 >   - uses first author in the author series
+
+### Pull rebase:
+
+
