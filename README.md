@@ -988,3 +988,11 @@ The following git objects qualify as a **tree-ish**:
 
 - Log is the primary interface to Git.
 - Log has many options like sorting, filtering and output formatting.
+
+        // log commits as patches (diffs)
+        git log -p
+        git log --patch
+
+        // list edits to lines 100-150 in filename.txt
+        git log -L 100,150:filename.txt
+        
