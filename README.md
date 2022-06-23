@@ -968,3 +968,8 @@ The following git objects qualify as a **tree-ish**:
 >    - reword, edit
 >    - squash, fixup
 >    - exec 
+> - Squash Commits:
+>   - Fold two or more commits into one
+>   - squash: combine change sets, concatenate messages
+>   - fixup: combine change sets, discards commit message
+>   - uses first author in the author series
