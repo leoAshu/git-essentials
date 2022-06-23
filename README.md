@@ -983,4 +983,5 @@ The following git objects qualify as a **tree-ish**:
         // pull rebase
         git pull --rebase
         git pull -r
-        
+
+## Log Options:
