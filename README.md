@@ -952,6 +952,7 @@ The following git objects qualify as a **tree-ish**:
         // undo by rebasing to former merge-base SHA
         git rebase --onto 9291f0c88 master new_feature
 
+
 ### Interactive rebasing:
 
 - Chance to modify commits as they are being replayed.
@@ -974,6 +975,7 @@ The following git objects qualify as a **tree-ish**:
 >   - fixup: combine change sets, discards commit message
 >   - uses first author in the author series
 
+
 ### Pull rebase:
 
 - Fetch from remote, then rebase instead of merging.
@@ -983,6 +985,7 @@ The following git objects qualify as a **tree-ish**:
         // pull rebase
         git pull --rebase
         git pull -r
+
 
 ## Log Options:
 
@@ -996,3 +999,5 @@ The following git objects qualify as a **tree-ish**:
         // list edits to lines 100-150 in filename.txt
         git log -L 100,150:filename.txt
         
+
+## Blame:
