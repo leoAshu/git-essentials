@@ -1020,4 +1020,6 @@ The following git objects qualify as a **tree-ish**:
         // annotate file at specific commit
         git blame <commit_id> filename.txt
         git blame <commit_id> -- filename.txt
-        
+
+
+## Bisect:
