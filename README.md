@@ -1006,3 +1006,18 @@ The following git objects qualify as a **tree-ish**:
 - Determine who changed which lines in a file and why.
 - Useful for probing the history behind a file's content.
 - Useful for identifying which commit introduced a bug.
+
+        // annotate file with commit details
+        git blame filename.txt
+
+        // ignore whitespace
+        git blame -w filename.txt
+
+        // annotate lines 100-150
+        git blame -L 100,150 filename.txt
+        git blame -L 100,+50 filename.txt
+
+        // annotate file at specific commit
+        git blame <commit_id> filename.txt
+        git blame <commit_id> -- filename.txt
+        
