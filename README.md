@@ -1001,3 +1001,8 @@ The following git objects qualify as a **tree-ish**:
         
 
 ## Blame:
+
+- Browse annotated file
+- Determine who changed which lines in a file and why.
+- Useful for probing the history behind a file's content.
+- Useful for identifying which commit introduced a bug.
