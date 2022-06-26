@@ -1029,6 +1029,7 @@ The following git objects qualify as a **tree-ish**:
 - Resets code to the midpoint of revisions.
 - Mark as good or bad revision.
 - Repeat
+- Makes use of binary search logic for finding out the bug-introducing commit.
 
         // begin bisecting
         git bisect start
