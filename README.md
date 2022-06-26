@@ -1029,3 +1029,15 @@ The following git objects qualify as a **tree-ish**:
 - Resets code to the midpoint of revisions.
 - Mark as good or bad revision.
 - Repeat
+
+        // begin bisecting
+        git bisect start
+
+        // mark last known bad revision
+        git bisect bad <treeish>
+
+        // mark last known good revision
+        git bisect good <treeish>
+
+        // stop and reset
+        git bisect reset
