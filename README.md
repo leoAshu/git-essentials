@@ -1023,3 +1023,9 @@ The following git objects qualify as a **tree-ish**:
 
 
 ## Bisect:
+
+- Find the commit that introduced a bug or regression.
+- Mark last good revision and first bad revision.
+- Resets code to the midpoint of revisions.
+- Mark as good or bad revision.
+- Repeat
