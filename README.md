@@ -987,7 +987,7 @@ The following git objects qualify as a **tree-ish**:
         git pull -r
 
 
-## Log Options:
+## Log & Debug Options:
 
 - Log is the primary interface to Git.
 - Log has many options like sorting, filtering and output formatting.
@@ -1000,7 +1000,7 @@ The following git objects qualify as a **tree-ish**:
         git log -L 100,150:filename.txt
         
 
-## Blame:
+### Blame:
 
 - Browse annotated file
 - Determine who changed which lines in a file and why.
@@ -1022,7 +1022,7 @@ The following git objects qualify as a **tree-ish**:
         git blame <commit_id> -- filename.txt
 
 
-## Bisect:
+### Bisect:
 
 - Find the commit that introduced a bug or regression.
 - Mark last good revision and first bad revision.
