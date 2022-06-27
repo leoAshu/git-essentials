@@ -9,20 +9,13 @@ Git is a Version Control System(VCS), aka Source Code Management(SCM).
 # Table of Contents:
 
 - [History of VCS Tools](#history-of-vcs-tools)
-
 - [Github](#github)
-
 - [Distributed Version Control](#distributed-version-control)
     - [Advantages of Distributed Version Control](#advantages-of-distributed-version-control)
-
 - [Architecture](#architecture)
-
 - [Git Workflow](#git-workflow)
-
 - [Git Configuration](#git-configuration)
-
 - [Tree-ish](#tree-ish)
-
 - [Commonly Used Commands](#commonly-used-commands)
     - [Configuration](#set-configuration)
         - [Set Configuration](#set-configuration)
