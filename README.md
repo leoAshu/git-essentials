@@ -423,11 +423,11 @@ The following git objects qualify as a **tree-ish**:
 - Upon staging it is recognized as rename operation.
 - moving a file using `git mv` command is identified as renaming and is automatically staged.
 
-    // renaming file name
-    git mv <old_file_name> <new_file_name>
+        // renaming file name
+        git mv <old_file_name> <new_file_name>
 
-    // moving a file
-    git mv <old_file_name> <new_path/old_file_name>
+        // moving a file
+        git mv <old_file_name> <new_path/old_file_name>
 
 
 ### Undo changes:
