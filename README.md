@@ -6,6 +6,53 @@
 
 Git is a Version Control System(VCS), aka Source Code Management(SCM).
 
+## Table of Contents:
+
+[History](#history-of-vcs-tools)
+
+[Github](#github)
+
+[Git Architecture](#architecture)
+
+* [Commonly Used Commands](#commonly-used-commands)
+     - [Configuration](#set-configuration)
+        - [Set Configuration](#set-configuration)
+        - [Show Configuration](#show-configuration)
+    - [Initialize Repository](#initialize-repository)
+     - [Basic Commands](#initialize-repository)
+        - [Stage Changes](#stage-changes)
+        - [Commit Changes](#commit-changes)
+        - [Commit Log](#view-commit-log)
+        - [Difference](#view-difference-between-tree-ishes)
+        - [Delete Files](#delete-files)
+        - [Move/Rename Files](#moving-or-renaming-files)
+        - [Undo Changes](#undo-changes)
+        - [Remove Untracked Files](#remove-untracked-files)
+     - [Branching](#create-and-switch-branch)
+        - [Create & Switch Branch](#create-and-switch-branch)
+        - [Rename Branch](#rename-branch)
+        - [Delete Branch](#delete-branch)
+        - [Reset](#reset)
+        - [Merge Branches](#merge)
+        - [Stash Changes](#stash)
+    - [Remote Repositories](#remote-repositories)
+        - [Show Remote](#show-remote)
+        - [Add Remote](#add-remote)
+        - [Delete Remote](#delete-remote)
+        - [Create Remote Branch](#create-remote-branch)
+        - [Clone Remote Repo](#clone-a-remote-repository)
+        - [Fetch From Remote Repo](#fetch-from-remote-repository)
+        - [Merge-in Fetched Changes](#merge-in-fetched-changes)
+        - [Checkout Remote Branch](#checkout-remote-branches)
+        - [Delete Remote Branch](#delete-remote-branch)
+        - [Force Push](#force-push-to-remote)
+    - [Tagging](#tags)
+        - [Create Tags](#create-tags)
+        - [List Tags](#list-tags)
+        - [Delete Tags](#delete-tags)
+        - [Push Tags](#push-tags-to-remote)
+        - [Checkout Tags](#checkout-tags)
+
 ## History of VCS Tools:
 
 1. Source Code Control System(SCCS):
